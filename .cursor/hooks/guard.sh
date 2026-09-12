@@ -12,6 +12,7 @@ BLOCK_CMDS=(
   'git clean'
   'drop table'
 )
+BLOCK_READS=('\.env' 'secrets?\.' '\.pem$' 'id_rsa')
 
 input=$(cat)
 
@@ -34,5 +35,13 @@ if [ -n "$cmd" ]; then
   done
 fi
 
+path=$(field file_path)
+if [ -n "$path" ] && [[ "$path" != *.env.example ]]; then
+  for p in "${BLOCK_READS[@]}"; do
+    if printf '%s' "$path" | grep -qiE "$p"; then
+      deny "Blocked by .cursor/hooks/guard.sh: '$path' looks like a secret. Read .env.example instead."
+    fi
+  done
+fi
 
 echo '{"permission":"allow"}'
