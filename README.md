@@ -147,12 +147,13 @@ Same ideas, different paths: `CLAUDE.md` for the rule, `.claude/skills/<name>/SK
 `slides/` is a [presenterm](https://github.com/mfontanini/presenterm) deck on the Agentic AI @ UIUC theme.
 
 ```bash
-slides/present.sh     # present; Ctrl-E runs the hook self-check live on the demo slide
+slides/present.sh     # present in the current terminal; Ctrl-E runs the hook self-check live
+slides/big.sh [pt]    # open a maximized Alacritty at 28pt (or your size) and present, for the projector
 slides/check.sh       # overflow check at 90x26 and 72x20 before you go on stage
 slides/pdf.sh         # slides/slides.pdf, one page per slide, footer site name is a clickable link
 ```
 
-Turn the terminal font up until it is about 72 to 80 columns wide. The deck is validated to fit there.
+On a projector use `big.sh`, or turn the font up until the window is about 72 to 80 columns wide. The deck is validated to fit there. Ghostty or kitty render slide titles at double size; Alacritty shows everything at one size.
 
 ## Reference
 
