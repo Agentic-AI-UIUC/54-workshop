@@ -80,7 +80,7 @@ DAMAGE
 
 <!-- end_slide -->
 
-<span class="kicker">/// WATCH IT FAIL</span>
+<span class="kicker">/// WATCH IT FAIL · LIVE DEMO</span>
 
 2 AM, NO GUARDRAILS
 ===
@@ -111,7 +111,7 @@ mkdir -p /tmp/bare /tmp/scratch-54 && cd /tmp/bare && agent --yolo
 
 <!-- end_slide -->
 
-<span class="kicker">/// WATCH IT STOP</span>
+<span class="kicker">/// WATCH IT STOP · LIVE DEMO</span>
 
 SAME PROMPT, WITH THE GATE
 ===
@@ -175,7 +175,7 @@ DRIFT
 
 <!-- end_slide -->
 
-<span class="kicker">/// WATCH IT FAIL</span>
+<span class="kicker">/// WATCH IT FAIL · LIVE DEMO</span>
 
 "BUILD ME A DASHBOARD"
 ===
@@ -206,7 +206,7 @@ DRIFT
 
 <!-- end_slide -->
 
-<span class="kicker">/// WATCH IT STOP</span>
+<span class="kicker">/// WATCH IT STOP · LIVE DEMO</span>
 
 SAME PROMPT, WITH THE RULE
 ===
