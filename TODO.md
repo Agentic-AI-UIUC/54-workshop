@@ -2,25 +2,25 @@
 
 Your checklist for the workshop, tonight, and Sunday. Check boxes as you go.
 
-## Setup (first 5 minutes)
+You never edit a file by hand. You prompt the agent, it writes the files, and the hook tests prove it obeyed. Every step below is a prompt.
+
+## Setup (5 minutes)
 
 - [ ] Cursor installed and logged in
-- [ ] Cursor CLI installed: `curl https://cursor.com/install -fsS | bash` (optional, Agent chat in the IDE works too)
+- [ ] Cursor CLI installed: `curl https://cursor.com/install -fsS | bash`
 - [ ] Cloned this repo: `git clone https://github.com/Agentic-AI-UIUC/54-workshop.git`
-- [ ] Working inside the clone (copying `.cursor/` into your own repo is optional, later, after you've read `guard.sh`)
-- [ ] `agent` runs in the terminal
-
-You never hand-edit these files. You prompt the agent and it fills them in. The hook is how you check it obeyed.
+- [ ] `cd 54-workshop && agent` runs. Work inside this folder, it is a sandbox.
 
 ## Round 1: Damage (8 minutes)
 
-- [ ] Asked the agent to **force push to main**. It was denied.
-- [ ] Prompted: **"Add `<your command>` to BLOCK_CMDS in .cursor/hooks/guard.sh and a matching check deny line in test.sh, then run test.sh."**
-- [ ] It reports 9 passed, 0 failed
+- [ ] Prompt: **force push this to main**. The hook denies it.
+- [ ] Prompt: **add one command that would ruin my demo to BLOCK_CMDS in .cursor/hooks/guard.sh, write a test for it in test.sh, then run the tests**
+- [ ] Agent reports 10 passed, 0 failed
+- [ ] Read what it changed before you trust it
 
 ## Round 2: Drift (10 minutes)
 
-- [ ] Filled the three blanks, twenty words max:
+- [ ] Decide the one flow, twenty words max:
 
   ```text
   User types    ________
@@ -28,27 +28,26 @@ You never hand-edit these files. You prompt the agent and it fills them in. The 
   Screen shows  ________
   ```
 
-- [ ] Typed **`/setup`** in the agent. Answered its questions with that sentence. It writes `product.mdc`, renames and fills the skill, extends the hook, runs the tests.
-- [ ] Read what it wrote. `product.mdc` under 20 lines? Skill folder name matches `name:`?
-- [ ] Asked the agent to **build the flow in product.mdc**
-- [ ] Ran it. Screenshot the moment it works.
+- [ ] Prompt: **/setup**. Answer its six questions with that sentence. It writes `product.mdc`, your product skill, the hook additions, the tests, and the pitch row.
+- [ ] Read what it wrote. `product.mdc` under 20 lines? Skill folder name matches `name:` inside it?
+- [ ] Prompt: **build the flow in product.mdc**
+- [ ] Prompt: **run it**. Screenshot the moment it works.
 
 ## Round 3: Break it (4 minutes)
 
-- [ ] Tried to talk the agent into running `rm -rf`. Any phrasing.
-- [ ] If you got past the hook: added that pattern to `BLOCK_CMDS`, added a test, reran `test.sh`
+- [ ] Try to talk the agent into running `rm -rf`. Any phrasing.
+- [ ] If you got past the hook, prompt: **add the pattern I just used to BLOCK_CMDS, add a test, run the tests**
 
 ## Round 4: Prove it (5 minutes)
 
-- [ ] Prompted: **"Fill one row of the table in PITCH.md: task `<X>`, without `<Y>`, with `<Z>`. Add the how-we-measured line."** (or `/setup` already did it)
-- [ ] Read the row. Numbers are yours, not the agent's guess.
+- [ ] Prompt: **fill one row of PITCH.md: task X, without our product Y, with it Z, and add the how-we-measured line**. Your numbers, not the agent's guess.
 
 ## Tonight
 
-- [ ] Two more forbidden commands in `guard.sh`, tests green
-- [ ] The flow builds and runs end to end
-- [ ] One number measured: seconds, clicks, or tokens
-- [ ] `product.mdc` still under 20 lines
+- [ ] Prompt: **add two more commands that would ruin my demo to guard.sh, with tests, and run them**
+- [ ] Prompt: **finish the flow in product.mdc**. Run it yourself.
+- [ ] Measure the number you put in `PITCH.md`: seconds, clicks, or tokens
+- [ ] Prompt: **is product.mdc still under 20 lines? If not, trim it**
 
 ## Sunday
 
@@ -58,10 +57,10 @@ You never hand-edit these files. You prompt the agent and it fills them in. The 
 
 ## Stuck?
 
-| Symptom | Fix |
+| Symptom | Prompt or fix |
 |---|---|
-| Hook doesn't fire | Restart Cursor. It caches `hooks.json`. |
-| Agent ignores the rule | `alwaysApply: true` present? File ends in `.mdc`, not `.md`? |
-| `python3: command not found` | Windows: use WSL or Git Bash. macOS: `xcode-select --install`. |
-| Skill doesn't show up | Folder name and `name:` in `SKILL.md` must match exactly. |
-| Anything else | Find us during the Sunday 1 to 3 PM work session. |
+| Hook doesn't fire | Restart Cursor, it caches `hooks.json` |
+| Agent ignores the rule | Prompt: **check that product.mdc has alwaysApply: true and ends in .mdc** |
+| `python3: command not found` | Windows: use WSL or Git Bash. macOS: `xcode-select --install` |
+| Skill doesn't show up | Prompt: **make the skill folder name match the name field in its SKILL.md** |
+| Anything else | DM anikoni2010 on Discord |
