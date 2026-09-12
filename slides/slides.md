@@ -43,7 +43,12 @@ GET THE FOLDER
 <!-- font_size: 2 -->
 
 ```bash
-curl https://cursor.com/install -fsS | bash     # Cursor CLI, once
+# INSTALL CURSOR CLI
+curl https://cursor.com/install -fsS | bash
+```
+
+```bash
+# GET THE FOLDER
 git clone https://github.com/Agentic-AI-UIUC/54-workshop.git
 cd 54-workshop && agent
 ```
