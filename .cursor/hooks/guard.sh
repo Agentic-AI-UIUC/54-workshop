@@ -41,7 +41,7 @@ path=$(field file_path)
 if [ -n "$path" ] && [[ "$path" != *.env.example ]]; then
   for p in "${BLOCK_READS[@]}"; do
     if printf '%s' "$path" | grep -qiE "$p"; then
-      deny "Blocked by .cursor/hooks/guard.sh: '$path' looks like a secret. Read .env.example instead."
+      deny "Blocked by .cursor/hooks/guard.sh: '$path' looks like a secret."
     fi
   done
 fi

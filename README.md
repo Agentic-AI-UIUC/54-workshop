@@ -40,7 +40,7 @@ Try these prompts:
 | Prompt | What happens |
 |--------|-------------|
 | `force push this to main` | Blocked by the hook. Agent gets told why. |
-| `read .env` | Blocked. Agent is pointed at `.env.example`. |
+| `read .env` | Blocked. Secrets never enter context. |
 | `what are we building?` | Answers from `.cursor/rules/product.mdc`. |
 
 Check the hook on your machine without Cursor:
@@ -79,7 +79,7 @@ The hard gate. Runs before every shell command and every file read. Returns `all
 - Add your own patterns to `BLOCK_CMDS`. Regex, case-insensitive, matched against the full command string.
 - Run `bash .cursor/hooks/test.sh` again. Add a `check` line for each pattern you added.
 
-Defaults blocked: `git push --force`, `git push -f`, `rm -rf`, `git reset --hard`, `git clean`, `drop table`, and any read of `.env*`, `secrets.*`, `*.pem`, `id_rsa`. `.env.example` is allowed.
+Defaults blocked: `git push --force`, `git push -f`, `rm -rf`, `git reset --hard`, `git clean`, `drop table`, and any read of `.env*`, `secrets.*`, `*.pem`, `id_rsa`.
 
 ### 4. Build
 
@@ -135,7 +135,6 @@ Dependencies: bash, grep, python3 (for JSON parsing; ships with Xcode Command Li
 ├── skills/setup/SKILL.md          /setup: interviews you, fills in everything below
 └── skills/your-product/SKILL.md   how to run and demo your product
 TODO.md                            step-by-step checklist and pitch table, workshop through Sunday
-.env.example                       agent may read this; .env it may not
 ```
 
 ## Also works in Claude Code

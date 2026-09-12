@@ -16,5 +16,5 @@ User types `___`, agent does `___`, screen shows `___`.
 - Build only the one flow above. If asked for anything else, say it is out of scope for the demo.
 - Prefer the smallest working version. No auth, no DB, no tests unless asked.
 - Every agent action must be visible on screen (log line, status badge, toast). Judges need to see it think.
-- Never touch `.env`. Read `.env.example` if you need variable names.
+- Never touch `.env` or any secrets file.
 - Ask before adding a dependency.
