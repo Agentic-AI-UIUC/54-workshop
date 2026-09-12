@@ -329,10 +329,9 @@ MAKE IT YOURS
 
 ```bash
 git clone https://github.com/Agentic-AI-UIUC/54-workshop.git
-cd 54-workshop && agent
+cp -r 54-workshop/.cursor  your-project/     # or cd 54-workshop to try it bare
+cd your-project && agent
 ```
-
-<!-- new_line -->
 
 <span class="accent">**01**</span>  Ask **"force push to main"**. <span class="muted">Watch it deny.</span>
 
@@ -344,7 +343,7 @@ cd 54-workshop && agent
 
 <span class="accent">**05**</span>  Run it. <span class="muted">Screenshot the moment it works.</span>
 
-<!-- speaker_note: Leave this slide up and walk. At minute 15 call out that two teams will show theirs. At minute 22 give a three-minute warning. Common failures - python3 missing on Windows, use WSL or Git Bash. Hook not firing, restart Cursor, it caches hooks.json. Rule ignored, check alwaysApply is true. -->
+<!-- speaker_note: Point at the cp line first. Teams with a repo already copy the folder in, that is the whole integration. Teams with nothing yet work in the clone. Leave this slide up and walk. At minute 15 call out that two teams will show theirs. At minute 22 give a three-minute warning. Common failures - python3 missing on Windows, use WSL or Git Bash. Hook not firing, restart Cursor, it caches hooks.json. Rule ignored, check alwaysApply is true. -->
 
 <!-- end_slide -->
 

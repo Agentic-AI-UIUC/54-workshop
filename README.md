@@ -17,6 +17,18 @@ No plugins, no skills, no API keys. Just:
 - git
 - python3 and bash for the hook script. Present on macOS (Xcode Command Line Tools) and Linux. Windows: use WSL or Git Bash.
 
+## Already have a project?
+
+Copy the folder in. That is the whole integration.
+
+```bash
+git clone https://github.com/Agentic-AI-UIUC/54-workshop.git
+cp -r 54-workshop/.cursor your-project/
+cd your-project && agent
+```
+
+Existing `.cursor/rules/` merge with the copy. Then follow "Make it yours" below.
+
 ## Quick start
 
 ```bash
