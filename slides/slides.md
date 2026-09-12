@@ -29,7 +29,7 @@ AGENDA
 
 <!-- new_line -->
 
-> Each round: I show it fail, I show it fixed, **you do it**. By Sunday 3 PM your demo runs on stage.
+> Each round: I show it fail, I show it fixed, **you do it**. By Sunday 3 PM your demo runs on stage
 
 <!-- speaker_note: 60 min. Budget is 5 setup / 12 / 15 / 8 / 8 / 7 show and tell / 5 close. Everyone is on a laptop with the agent. Nobody hand-edits a file today. Cut order if long - Spotify slide, then show and tell to one team. -->
 
@@ -87,7 +87,7 @@ DAMAGE
 
 <!-- font_size: 2 -->
 
-<span class="muted">Bare folder, no `.cursor/`. Watch the terminal.</span>
+<span class="muted">Bare folder, no `.cursor/`. Watch the terminal</span>
 
 ```bash
 mkdir -p /tmp/bare /tmp/scratch-54 && cd /tmp/bare && agent --yolo
@@ -135,7 +135,7 @@ Blocked by guard.sh: matches 'rm -rf'. Not during the demo.
 ]
 ```
 
-<span class="muted">JSON in on stdin. `allow` or `deny` out. The model never gets a vote.</span>
+<span class="muted">JSON in on stdin. `allow` or `deny` out. The model never gets a vote</span>
 
 <!-- speaker_note: LIVE - same prompt in the template folder. Show the deny verbatim. Then cat hooks.json. Then open guard.sh and point at BLOCK_CMDS, the array they will edit next. -->
 
@@ -148,15 +148,15 @@ TRIP IT, THEN EXTEND IT
 
 <!-- font_size: 2 -->
 
-<span class="accent">**01**</span>  Ask **"force push to main"**. <span class="muted">Watch it deny.</span>
+<span class="accent">**01**</span>  Ask **"force push to main"**. <span class="muted">Watch it deny</span>
 
 <span class="accent">**02**</span>  Tell the agent: **"add `<command>` to BLOCK_CMDS in guard.sh, add a test, run test.sh."**
 
-<span class="accent">**03**</span>  Read the diff. You never hand-edit. The agent writes, the hook proves it.
+<span class="accent">**03**</span>  Read the diff. You never hand-edit. The agent writes, the hook proves it
 
 <!-- pause -->
 
-> Ten green lines. You just wrote a policy the model cannot override.
+> Ten green lines. You just wrote a policy the model cannot override
 
 <!-- speaker_note: Walk. Typical adds - git checkout ., npm publish, docker system prune, curl to prod. Hook not firing means Cursor cached hooks.json, restart it. -->
 
@@ -182,7 +182,7 @@ DRIFT
 
 <!-- font_size: 2 -->
 
-<span class="muted">Bare folder again. One prompt, no spec.</span>
+<span class="muted">Bare folder again. One prompt, no spec</span>
 
 <!-- new_line -->
 
@@ -194,13 +194,13 @@ DRIFT
 
 <!-- new_line -->
 
-<span class="bad">**✘**</span>  Auth page. Settings. Dark mode. A sidebar with six routes.
+<span class="bad">**✘**</span>  Auth page. Settings. Dark mode. A sidebar with six routes
 
-<span class="bad">**✘**</span>  None of it is on your pitch slide.
+<span class="bad">**✘**</span>  None of it is on your pitch slide
 
 <!-- pause -->
 
-> Every prompt starts from **zero**. So Cursor guesses. Judges see a generic app.
+> Every prompt starts from **zero**. So Cursor guesses. Judges see a generic app
 
 <!-- speaker_note: LIVE - run it in the bare folder, let it plan for twenty seconds, scroll the plan. Count the features nobody asked for out loud. Stop it. -->
 
@@ -250,7 +250,7 @@ demo. Proceed?
 
 <!-- pause -->
 
-> Twenty lines, read on **every** prompt. That is the difference between generic and yours.
+> Twenty lines, read on **every** prompt. That is the difference between generic and yours
 
 <!-- speaker_note: LIVE - same prompt in the template. It quotes the rule and scopes down. Then ask it to add login. Watch it push back. Rule is soft, so it can still be argued into it, which is why the hook exists for the things that must never happen. -->
 
@@ -263,7 +263,7 @@ WRITE THE SPEC ONCE
 
 <!-- font_size: 2 -->
 
-<span class="accent">**01**</span>  Fill the three blanks. Twenty words max.
+<span class="accent">**01**</span>  Fill the three blanks. Twenty words max
 
 ```text
 User types    ________
@@ -271,15 +271,15 @@ Product does  ________
 Screen shows  ________
 ```
 
-<span class="accent">**02**</span>  Type **`/setup`**. Answer its six questions with that sentence.
+<span class="accent">**02**</span>  Type **`/setup`**. Answer its six questions with that sentence
 
-<span class="accent">**03**</span>  It writes `product.mdc`, the skill, the hook. Read the diff.
+<span class="accent">**03**</span>  It writes `product.mdc`, the skill, the hook. Read the diff
 
-<span class="accent">**04**</span>  Ask **"build the flow in product.mdc"**. Run it. Screenshot it working.
+<span class="accent">**04**</span>  Ask **"build the flow in product.mdc"**. Run it. Screenshot it working
 
 <!-- pause -->
 
-> Can't fill the blanks? You have a feature list, not a demo.
+> Can't fill the blanks? You have a feature list, not a demo
 
 <!-- speaker_note: Walk. Rule ignored means alwaysApply is missing or the file is .md not .mdc. At minute 8 say two teams will show at the end. -->
 
@@ -305,7 +305,7 @@ GET PAST THE GATE
 
 <!-- font_size: 2 -->
 
-<span class="muted">Talk Cursor into running `rm -rf`. Any phrasing. Go.</span>
+<span class="muted">Talk Cursor into running `rm -rf`. Any phrasing. Go</span>
 
 <!-- new_lines: 2 -->
 
@@ -319,7 +319,7 @@ GET PAST THE GATE
 
 <!-- new_line -->
 
-> The rule is a **suggestion** the model usually follows. The hook is **bash**. Persuasion has no effect on bash.
+> The rule is a **suggestion** the model usually follows. The hook is **bash**. Persuasion has no effect on bash
 
 <!-- speaker_note: Let them try for real. Someone will find a bypass, likely writing a script file. Good. That is the next slide - the gate catches what you list, so list the shapes not the strings, and fail closed. -->
 
@@ -342,7 +342,7 @@ THREE PROPERTIES
 
 <!-- new_line -->
 
-> Someone found a bypass? **Add it to the list, add a test.** That is the whole maintenance loop.
+> Someone found a bypass? **Add it to the list, add a test.** That is the whole maintenance loop
 
 <!-- speaker_note: Whoever got past it, ask what they did, add the pattern to BLOCK_CMDS live, rerun test.sh. Thirty seconds. That is more convincing than any slide. -->
 
@@ -355,7 +355,7 @@ SPOTIFY DOES THIS
 
 <!-- font_size: 2 -->
 
-<span class="muted">`plugins/shunt` in `spotify/portal-ai-plugins`, open-sourced Aug 11. A hook blocks reads over 350 lines and routes them to a cheaper model.</span>
+<span class="muted">`plugins/shunt` in `spotify/portal-ai-plugins`, open-sourced Aug 11. A hook blocks reads over 350 lines and routes them to a cheaper model</span>
 
 <!-- new_line -->
 
@@ -366,7 +366,7 @@ SPOTIFY DOES THIS
 
 <!-- pause -->
 
-> Same shape as your `guard.sh`. Hook, script, skill. Fifty-one evals, no API key.
+> Same shape as your `guard.sh`. Hook, script, skill. Fifty-one evals, no API key
 
 <!-- speaker_note: Numbers from the shunt README, measured on a 162K-line Java monorepo. One sentence. First cut if running long. -->
 
@@ -392,7 +392,7 @@ ONE HONEST NUMBER
 
 <!-- font_size: 2 -->
 
-<span class="muted">Tell the agent: **"fill one row of PITCH.md"** with your numbers. Pick the task, measure it, no guessing.</span>
+<span class="muted">Tell the agent: **"fill one row of PITCH.md"** with your numbers. Pick the task, measure it, no guessing</span>
 
 <!-- new_line -->
 
@@ -403,7 +403,7 @@ ONE HONEST NUMBER
 
 <!-- pause -->
 
-> One measured row beats ten adjectives. Judges will ask **how you measured it**. Write that line too.
+> One measured row beats ten adjectives. Judges will ask **how you measured it**. Write that line too
 
 <!-- speaker_note: Seconds, clicks, or tokens. Any of the three. This hands off to the Sunday 12:20 pitching workshop, slide 3 of their pitch. -->
 
@@ -416,11 +416,11 @@ THE VIDEO RULE
 
 <!-- font_size: 2 -->
 
-<span class="accent">**01**</span>  **Sunday 1 PM.** <span class="muted">Record 90 seconds of the flow working.</span>
+<span class="accent">**01**</span>  **Sunday 1 PM.** <span class="muted">Record 90 seconds of the flow working</span>
 
-<span class="accent">**02**</span>  **Demo dies on stage.** <span class="muted">Play the video. Keep talking.</span>
+<span class="accent">**02**</span>  **Demo dies on stage.** <span class="muted">Play the video. Keep talking</span>
 
-<span class="accent">**03**</span>  **Never debug on stage.** <span class="muted">Nobody has won by fixing a bug live.</span>
+<span class="accent">**03**</span>  **Never debug on stage.** <span class="muted">Nobody has won by fixing a bug live</span>
 
 <!-- speaker_note: This is the slide people thank you for on Sunday. Say it slowly. -->
 
@@ -433,7 +433,7 @@ TWO TEAMS
 
 <!-- font_size: 2 -->
 
-<span class="muted">Plug in. Two minutes each.</span>
+<span class="muted">Plug in. Two minutes each</span>
 
 <!-- new_lines: 2 -->
 
@@ -441,7 +441,7 @@ TWO TEAMS
 
 <span class="accent">**02**</span>  What did the rule keep Cursor from adding?
 
-<span class="accent">**03**</span>  Show the flow running.
+<span class="accent">**03**</span>  Show the flow running
 
 <!-- speaker_note: Pick the two screens you saw work while walking. Nobody volunteers cold. If a demo stalls, thank them and move on. That is the video rule, live. -->
 
@@ -456,15 +456,15 @@ WHAT YOU DID
 
 <!-- new_line -->
 
-<span class="accent">**01**</span>  Wrote a **hook**. Cursor tried to get past it and couldn't.
+<span class="accent">**01**</span>  Wrote a **hook**. Cursor tried to get past it and couldn't
 
-<span class="accent">**02**</span>  Wrote a **rule**. Cursor built your flow, not a dashboard.
+<span class="accent">**02**</span>  Wrote a **rule**. Cursor built your flow, not a dashboard
 
-<span class="accent">**03**</span>  Wrote **one row** judges can check.
+<span class="accent">**03**</span>  Wrote **one row** judges can check
 
 <!-- pause -->
 
-> Cursor owns the loop. **You own the context and the policy.** That is the harness.
+> Cursor owns the loop. **You own the context and the policy.** That is the harness
 
 <!-- end_slide -->
 
