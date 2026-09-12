@@ -135,7 +135,7 @@ Blocked by guard.sh: matches 'rm -rf'. Not during the demo.
 ]
 ```
 
-<span class="muted">JSON in on stdin. `allow` or `deny` out. The model never gets a vote</span>
+<span class="muted">Cursor sends the command to the script as JSON, the script answers `allow` or `deny`, and the model never gets a vote</span>
 
 <!-- speaker_note: LIVE - same prompt in the template folder. Show the deny verbatim. Then cat hooks.json. Then open guard.sh and point at BLOCK_CMDS, the array they will edit next. -->
 
