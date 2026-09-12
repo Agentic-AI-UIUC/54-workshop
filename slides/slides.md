@@ -263,23 +263,15 @@ WRITE THE SPEC ONCE
 
 <!-- font_size: 2 -->
 
-<span class="accent">**01**</span>  Fill the three blanks. Twenty words max
+<span class="accent">**01**</span>  Type **`/setup`**. It asks what the user types, what the product does, what the screen shows, your stack, three commands to block, and one thing to measure
 
-```text
-User types    ________
-Product does  ________
-Screen shows  ________
-```
+<span class="accent">**02**</span>  Answer in plain English. It writes `product.mdc`, your product skill, the hook additions, the tests, and the pitch row
 
-<span class="accent">**02**</span>  Type **`/setup`**. Answer its six questions with that sentence
-
-<span class="accent">**03**</span>  It writes `product.mdc`, the skill, the hook. Read the diff
-
-<span class="accent">**04**</span>  Ask **"build the flow in product.mdc"**. Run it. Screenshot it working
+<span class="accent">**03**</span>  Read what it wrote, then ask it to **build the flow in product.mdc** and run it
 
 <!-- pause -->
 
-> Can't fill the blanks? You have a feature list, not a demo
+> If you can't answer the first three questions, you have a feature list, not a demo. Pick one flow
 
 <!-- speaker_note: Walk. Rule ignored means alwaysApply is missing or the file is .md not .mdc. At minute 8 say two teams will show at the end. -->
 

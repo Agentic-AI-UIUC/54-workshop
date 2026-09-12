@@ -20,15 +20,8 @@ You never edit a file by hand. You prompt the agent, it writes the files, and th
 
 ## Round 2: Drift (10 minutes)
 
-- [ ] Decide the one flow, twenty words max:
-
-  ```text
-  User types    ________
-  Product does  ________
-  Screen shows  ________
-  ```
-
-- [ ] Prompt: **/setup**. Answer its six questions with that sentence. It writes `product.mdc`, your product skill, the hook additions, the tests, and the pitch row.
+- [ ] Prompt: **/setup**. It asks six questions, one at a time: what the user types, what the product does, what the screen shows, your stack, three commands to block, one thing to measure. Answer in plain English. It writes `product.mdc`, your product skill, the hook additions, the tests, and the pitch row.
+- [ ] Can't answer the first three? You have a feature list, not a demo. Pick one flow and answer again.
 - [ ] Read what it wrote. `product.mdc` under 20 lines? Skill folder name matches `name:` inside it?
 - [ ] Prompt: **build the flow in product.mdc**
 - [ ] Prompt: **run it**. Screenshot the moment it works.
