@@ -8,6 +8,15 @@ Built for the Agentic AI workshop at Founders 54 Fall 2026 (UIUC). Works for any
 
 Agent demos die in two ways. The agent wanders off the one flow you meant to show, or it does something dumb live: force-pushes, deletes a folder, reads your `.env` into context. Both are fixable in under an hour with three small files. This repo is those three files plus a checklist.
 
+## Prerequisites
+
+No plugins, no skills, no API keys. Just:
+
+- Cursor, logged in (use the hackathon Pro code)
+- Cursor CLI, optional: `curl https://cursor.com/install -fsS | bash`. Agent chat in the IDE works the same.
+- git
+- python3 and bash for the hook script. Present on macOS (Xcode Command Line Tools) and Linux. Windows: use WSL or Git Bash.
+
 ## Quick start
 
 ```bash
