@@ -505,11 +505,9 @@ TONIGHT
 
 <!-- end_slide -->
 
-<!-- jump_to_middle -->
-
 <span class="kicker">/// 54 WORKSHOP COMPLETE</span>
 
-THAT'S IT
+THAT'S IT!!!
 ===
 
 <!-- font_size: 2 -->
