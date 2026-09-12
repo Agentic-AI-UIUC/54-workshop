@@ -16,3 +16,6 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# speaker script, local only
+slides/TALK.md
