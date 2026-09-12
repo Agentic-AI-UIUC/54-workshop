@@ -5,7 +5,7 @@
 
 default:
   margin:
-    fixed: 1
+    percent: 12
   colors:
     foreground: palette:text
     background: palette:bg
@@ -140,7 +140,7 @@ pty_output:
 footer:
   style: template
   height: 2
-  left: "<span style=\"color: palette:dim\">AGENTIC AI @ UIUC · AGENTICAIUIUC.COM</span>"
+  center: "<span style=\"color: palette:dim\">AGENTIC AI @ UIUC · AGENTICAIUIUC.COM</span>"
   right: "<span style=\"color: palette:orange\">{current_slide}</span><span style=\"color: palette:dim\"> / {total_slides}</span>"
 
 modals:
