@@ -194,9 +194,9 @@ DRIFT
 
 <!-- new_line -->
 
-<span class="bad">**✘**</span>  It picks the stack. It picks the features. It starts installing
+<span class="bad">**✘**</span>  React + Vite. Fleet overview, shipments, routes, alerts. Then `npm create`
 
-<span class="bad">**✘**</span>  You asked for none of it, and none of it is on your pitch slide
+<span class="bad">**✘**</span>  You said "dashboard". It chose the stack and four features, and none of them are on your pitch slide
 
 <!-- pause -->
 
