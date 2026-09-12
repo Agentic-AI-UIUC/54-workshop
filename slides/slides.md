@@ -140,13 +140,9 @@ TRIP IT, THEN EXTEND IT
 
 <span class="accent">**01**</span>  Ask **"force push to main"**. <span class="muted">Watch it deny.</span>
 
-<span class="accent">**02**</span>  Open `.cursor/hooks/guard.sh`. Add **one** command that would kill your demo to `BLOCK_CMDS`.
+<span class="accent">**02**</span>  Tell the agent: **"add `<command>` to BLOCK_CMDS in guard.sh, add a test, run test.sh."**
 
-<span class="accent">**03**</span>  Add a `check deny` line for it in `test.sh`. Run:
-
-```bash
-bash .cursor/hooks/test.sh
-```
+<span class="accent">**03**</span>  Read the diff. You never hand-edit. The agent writes, the hook proves it.
 
 <!-- pause -->
 
@@ -275,9 +271,9 @@ Screen shows  ________
 
 <span class="badge"> BUILDERS </span>
 
-**1.** Paste the sentence into `product.mdc`. Add your stack.
+**1.** Type **`/setup`**. Answer its six questions.
 
-**2.** Rename `skills/your-product/`. Fill in `SKILL.md`.
+**2.** It writes `product.mdc`, the skill, the hook. Read the diff.
 
 **3.** Ask **"build the flow in product.mdc"**.
 
@@ -392,7 +388,7 @@ ONE HONEST NUMBER
 
 <!-- font_size: 2 -->
 
-<span class="muted">Open `PITCH.md`. Fill one row. Founders write it, builders measure it.</span>
+<span class="muted">Tell the agent: **"fill one row of PITCH.md"** with your numbers. Founders pick the task, builders measure.</span>
 
 <!-- new_line -->
 
@@ -507,12 +503,12 @@ TONIGHT
 
 <span class="kicker">/// 54 WORKSHOP COMPLETE</span>
 
-THAT'S IT!!!
+THANK YOU!!
 ===
 
 <!-- font_size: 2 -->
 
-<span class="muted">Need help? Questions? DM me on Discord, <span class="badge"> anikoni2010 </span>. Happy to help!!</span>
+<span class="muted">Need help or have any questions? DM me on Discord, <span class="badge"> anikoni2010 </span>. Happy to help!!</span>
 
 <!-- new_lines: 2 -->
 

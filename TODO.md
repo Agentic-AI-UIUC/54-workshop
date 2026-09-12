@@ -10,12 +10,13 @@ Your checklist for the workshop, tonight, and Sunday. Check boxes as you go.
 - [ ] Working inside the clone (copying `.cursor/` into your own repo is optional, later, after you've read `guard.sh`)
 - [ ] `agent` runs in the terminal
 
+You never hand-edit these files. You prompt the agent and it fills them in. The hook is how you check it obeyed.
+
 ## Round 1: Damage (8 minutes)
 
 - [ ] Asked the agent to **force push to main**. It was denied.
-- [ ] Opened `.cursor/hooks/guard.sh`. Added one command that would kill your demo to `BLOCK_CMDS`.
-- [ ] Added a matching `check deny` line to `.cursor/hooks/test.sh`
-- [ ] `bash .cursor/hooks/test.sh` shows 9 passed, 0 failed
+- [ ] Prompted: **"Add `<your command>` to BLOCK_CMDS in .cursor/hooks/guard.sh and a matching check deny line in test.sh, then run test.sh."**
+- [ ] It reports 9 passed, 0 failed
 
 ## Round 2: Drift (10 minutes)
 
@@ -31,9 +32,8 @@ Your checklist for the workshop, tonight, and Sunday. Check boxes as you go.
 
 **Builders**
 
-- [ ] Pasted that sentence into `.cursor/rules/product.mdc` with your stack
-- [ ] Renamed `.cursor/skills/your-product/` to your product name (lowercase, hyphens, `name:` inside matches the folder)
-- [ ] Filled in `SKILL.md`: what it does, how to run it, what "working" looks like
+- [ ] Typed **`/setup`** in the agent. Answered its questions with the founders' sentence. It writes `product.mdc`, renames and fills the skill, extends the hook, runs the tests.
+- [ ] Read what it wrote. `product.mdc` under 20 lines? Skill folder name matches `name:`?
 - [ ] Asked the agent to **build the flow in product.mdc**
 - [ ] Ran it. Screenshot the moment it works.
 
@@ -44,8 +44,8 @@ Your checklist for the workshop, tonight, and Sunday. Check boxes as you go.
 
 ## Round 4: Prove it (5 minutes)
 
-- [ ] Filled one row of the table in `PITCH.md`
-- [ ] Wrote one line on how you measured it
+- [ ] Prompted: **"Fill one row of the table in PITCH.md: task `<X>`, without `<Y>`, with `<Z>`. Add the how-we-measured line."** (or `/setup` already did it)
+- [ ] Read the row. Numbers are yours, not the agent's guess.
 
 ## Tonight
 

@@ -53,7 +53,7 @@ Expected: `8 passed, 0 failed`.
 
 ## Make it yours
 
-Fifteen minutes. Do them in order.
+Fifteen minutes. You don't hand-edit anything: type `/setup` in the agent, answer six questions, and it writes every file below, then runs the hook tests. The steps are here so you can check its work.
 
 ### 1. Rule: `.cursor/rules/product.mdc`
 
@@ -132,6 +132,7 @@ Dependencies: bash, grep, python3 (for JSON parsing; ships with Xcode Command Li
 ├── hooks/guard.sh                 the gate
 ├── hooks/test.sh                  8 assertions, runs without Cursor
 ├── rules/product.mdc              your spec, always in context
+├── skills/setup/SKILL.md          /setup: interviews you, fills in everything below
 └── skills/your-product/SKILL.md   how to run and demo your product
 TODO.md                            step-by-step checklist, workshop through Sunday
 PITCH.md                           the pitch table and how-you-measured line
