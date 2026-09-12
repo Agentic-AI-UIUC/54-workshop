@@ -194,9 +194,9 @@ DRIFT
 
 <!-- new_line -->
 
-<span class="bad">**✘**</span>  Auth page. Settings. Dark mode. A sidebar with six routes
+<span class="bad">**✘**</span>  It picks the stack. It picks the features. It starts installing
 
-<span class="bad">**✘**</span>  None of it is on your pitch slide
+<span class="bad">**✘**</span>  You asked for none of it, and none of it is on your pitch slide
 
 <!-- pause -->
 
