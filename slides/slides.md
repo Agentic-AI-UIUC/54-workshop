@@ -49,13 +49,13 @@ cd 54-workshop && agent
 
 <!-- new_line -->
 
-<span class="muted">Work in the clone. It's a sandbox, nothing touches your project. Want it in your repo later? Copy `.cursor/` over, after you've read `guard.sh`. Your call.</span>
+<span class="muted">Work in the clone. It's a sandbox, so nothing will touch your project. Want it in your repo later? Copy `.cursor/` over, after you've read `guard.sh`. Up to you!</span>
 
 <!-- pause -->
 
 <!-- new_line -->
 
-> On Windows, use WSL or Git Bash so the hook script can run.
+> On Windows, use WSL or Git Bash so the hook script can run
 
 <!-- speaker_note: Say the sandbox line out loud. We are not editing anyone's project today. Integration is optional and theirs. Give it two minutes, then walk to anyone stuck. Common - Cursor CLI not installed, curl https://cursor.com/install -fsS | bash. Not logged in, agent login. -->
 
@@ -83,7 +83,9 @@ DAMAGE
 
 <span class="muted">Bare folder, no `.cursor/`. Watch the terminal.</span>
 
-<!-- new_line -->
+```bash
+mkdir -p /tmp/bare /tmp/scratch-54 && cd /tmp/bare && agent
+```
 
 ```text
 > run: rm -rf /tmp/scratch-54
