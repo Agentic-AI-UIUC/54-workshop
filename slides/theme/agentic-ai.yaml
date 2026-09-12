@@ -15,7 +15,7 @@ intro_slide:
     alignment: center
     colors:
       foreground: palette:text
-    font_size: 2
+    font_size: 3
   subtitle:
     alignment: center
     colors:
@@ -42,7 +42,7 @@ slide_title:
   # white title draws a bright full-width line the brand system does not have.
   separator: false
   bold: true
-  font_size: 2
+  font_size: 3
   colors:
     foreground: palette:text
 

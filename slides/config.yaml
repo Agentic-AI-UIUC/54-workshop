@@ -22,8 +22,8 @@ export:
   # Narrow on purpose: the browser scales the page to fit, so fewer columns
   # means bigger type. The SCD screens are small.
   dimensions:
-    columns: 90
-    rows: 26
+    columns: 120
+    rows: 34
   # Each `<!-- pause -->` becomes its own page, so the exported deck reveals
   # the same way the live one does.
   pauses: new_slide

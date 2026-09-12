@@ -1,9 +1,9 @@
 ---
-title: "DEMOS THAT SURVIVE THE PITCH"
-sub_title: "Guardrails so Cursor builds your product, not a generic app."
-event: "54 WORKSHOP · FOUNDERS 54 · AGENTIC AI @ UIUC"
-location: "Sunset Studio"
-date: "4 PM"
+title: "54 AGENTIC AI WORKSHOP - DEMOS THAT SURVIVE THE PITCH"
+sub_title: "Guardrails so Cursor builds the product you want, rather than a generic app"
+event: "FOUNDERS · AGENTIC AI @ UIUC · Y COMBINATOR"
+date: "09/12/2026 · 4:00 PM"
+location: "SCD · Sunset Studio (Room 1050)"
 theme:
   path: theme/agentic-ai.yaml
 options:
@@ -14,6 +14,8 @@ options:
 
 FOUR ROUNDS, LAPTOPS OPEN
 ===
+
+<!-- font_size: 2 -->
 
 <span class="accent">**01**</span>  **Damage** · <span class="muted">Cursor wrecks something. Then it can't.</span>
 
@@ -37,6 +39,8 @@ FOUR ROUNDS, LAPTOPS OPEN
 
 GET THE FOLDER
 ===
+
+<!-- font_size: 2 -->
 
 ```bash
 git clone https://github.com/Agentic-AI-UIUC/54-workshop.git
@@ -64,12 +68,16 @@ cd 54-workshop && agent
 DAMAGE
 ===
 
+<!-- font_size: 2 -->
+
 <!-- end_slide -->
 
 <span class="kicker">/// WATCH IT FAIL</span>
 
 2 AM, NO GUARDRAILS
 ===
+
+<!-- font_size: 2 -->
 
 <span class="muted">Bare folder, no `.cursor/`. Watch the terminal.</span>
 
@@ -97,6 +105,8 @@ DAMAGE
 
 SAME PROMPT, WITH THE GATE
 ===
+
+<!-- font_size: 2 -->
 
 ```text
 > run: rm -rf /tmp/scratch-54
@@ -126,6 +136,8 @@ Blocked by guard.sh: matches 'rm -rf'. Not during the demo.
 TRIP IT, THEN EXTEND IT
 ===
 
+<!-- font_size: 2 -->
+
 <span class="accent">**01**</span>  Ask **"force push to main"**. <span class="muted">Watch it deny.</span>
 
 <span class="accent">**02**</span>  Open `.cursor/hooks/guard.sh`. Add **one** command that would kill your demo to `BLOCK_CMDS`.
@@ -151,12 +163,16 @@ bash .cursor/hooks/test.sh
 DRIFT
 ===
 
+<!-- font_size: 2 -->
+
 <!-- end_slide -->
 
 <span class="kicker">/// WATCH IT FAIL</span>
 
 "BUILD ME A DASHBOARD"
 ===
+
+<!-- font_size: 2 -->
 
 <span class="muted">Bare folder again. One prompt, no spec.</span>
 
@@ -186,6 +202,8 @@ DRIFT
 
 SAME PROMPT, WITH THE RULE
 ===
+
+<!-- font_size: 2 -->
 
 <!-- column_layout: [1, 1] -->
 
@@ -235,6 +253,8 @@ demo. Proceed?
 WRITE THE SPEC ONCE
 ===
 
+<!-- font_size: 2 -->
+
 <!-- column_layout: [1, 1] -->
 
 <!-- column: 0 -->
@@ -276,12 +296,16 @@ Screen shows  ________
 BREAK IT
 ===
 
+<!-- font_size: 2 -->
+
 <!-- end_slide -->
 
 <span class="kicker">/// CHALLENGE · 4 MIN</span>
 
 GET PAST THE GATE
 ===
+
+<!-- font_size: 2 -->
 
 <span class="muted">Talk Cursor into running `rm -rf`. Any phrasing. Go.</span>
 
@@ -308,6 +332,8 @@ GET PAST THE GATE
 THREE PROPERTIES
 ===
 
+<!-- font_size: 2 -->
+
 | Property | What it means | Where |
 |---|---|---|
 | **Outside the model** | Runs before the action, decides alone | `hooks.json` |
@@ -328,6 +354,8 @@ THREE PROPERTIES
 
 SPOTIFY DOES THIS
 ===
+
+<!-- font_size: 2 -->
 
 <span class="muted">`plugins/shunt` in `spotify/portal-ai-plugins`, open-sourced Aug 11. A hook blocks reads over 350 lines and routes them to a cheaper model.</span>
 
@@ -353,12 +381,16 @@ SPOTIFY DOES THIS
 PROVE IT
 ===
 
+<!-- font_size: 2 -->
+
 <!-- end_slide -->
 
 <span class="kicker">/// YOUR TURN · 5 MIN</span>
 
 ONE HONEST NUMBER
 ===
+
+<!-- font_size: 2 -->
 
 <span class="muted">Open `PITCH.md`. Fill one row. Founders write it, builders measure it.</span>
 
@@ -382,6 +414,8 @@ ONE HONEST NUMBER
 THE VIDEO RULE
 ===
 
+<!-- font_size: 2 -->
+
 <span class="accent">**01**</span>  **Sunday 1 PM.** <span class="muted">Record 90 seconds of the flow working.</span>
 
 <span class="accent">**02**</span>  **Demo dies on stage.** <span class="muted">Play the video. Keep talking.</span>
@@ -396,6 +430,8 @@ THE VIDEO RULE
 
 TWO TEAMS
 ===
+
+<!-- font_size: 2 -->
 
 <span class="muted">Plug in. Two minutes each.</span>
 
@@ -416,6 +452,8 @@ TWO TEAMS
 WHAT YOU DID
 ===
 
+<!-- font_size: 2 -->
+
 <!-- new_line -->
 
 <span class="accent">**01**</span>  Wrote a **hook**. Cursor tried to get past it and couldn't.
@@ -434,6 +472,8 @@ WHAT YOU DID
 
 TONIGHT
 ===
+
+<!-- font_size: 2 -->
 
 <!-- column_layout: [1, 1] -->
 
@@ -471,6 +511,8 @@ TONIGHT
 
 QUESTIONS?
 ===
+
+<!-- font_size: 2 -->
 
 <span class="muted">Find me in the Sunday 1 to 3 work session if a hook will not fire.</span>
 
