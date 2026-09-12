@@ -133,11 +133,10 @@ Same ideas, different paths: `CLAUDE.md` for the rule, `.claude/skills/<name>/SK
 
 ## Workshop slides
 
-`SLIDES.md` is a [presenterm](https://github.com/mfontanini/presenterm) deck. Run it from the repo root so the live code block can find the hook test:
+The deck lives in the club's presentations repo as `54-workshop/`, built with presenterm on the shared theme. From that repo:
 
 ```bash
-presenterm -x SLIDES.md              # -x enables the +exec block on slide 6
-presenterm --validate-overflows SLIDES.md   # check nothing overflows your terminal size first
+scripts/present.sh 54-workshop
 ```
 
 ## Reference
