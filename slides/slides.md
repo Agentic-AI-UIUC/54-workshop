@@ -43,6 +43,7 @@ GET THE FOLDER
 <!-- font_size: 2 -->
 
 ```bash
+curl https://cursor.com/install -fsS | bash     # Cursor CLI, once
 git clone https://github.com/Agentic-AI-UIUC/54-workshop.git
 cd 54-workshop && agent
 ```
@@ -84,7 +85,7 @@ DAMAGE
 <span class="muted">Bare folder, no `.cursor/`. Watch the terminal.</span>
 
 ```bash
-mkdir -p /tmp/bare /tmp/scratch-54 && cd /tmp/bare && agent
+mkdir -p /tmp/bare /tmp/scratch-54 && cd /tmp/bare && agent --yolo
 ```
 
 ```text
@@ -95,13 +96,13 @@ mkdir -p /tmp/bare /tmp/scratch-54 && cd /tmp/bare && agent
 
 <!-- new_line -->
 
-<span class="bad">**✘**</span>  It ran. No question asked. Now imagine it was your `src/`.
+<span class="bad">**✘**</span>  It ran. `--yolo` is you at 2 AM with yes-to-all on. Now imagine it was `src/`.
 
 <!-- pause -->
 
 > Cursor is not careless. It is **obedient**. Nothing told it no.
 
-<!-- speaker_note: LIVE - cd /tmp, mkdir bare, cd bare, agent, ask it to rm -rf /tmp/scratch-54. Watch it do it. Let the silence sit two seconds. Then switch to the template folder. -->
+<!-- speaker_note: LIVE - run the mkdir line on the slide, agent --yolo, ask it to rm -rf /tmp/scratch-54. It deletes it with no question. Without --yolo it asks once and runs on yes, say that too. Let the silence sit two seconds. Then switch to the template folder. -->
 
 <!-- end_slide -->
 
