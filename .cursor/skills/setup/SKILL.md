@@ -21,8 +21,8 @@ Stop after each question and wait for the answer.
 ## 2. Write, in this order
 
 - `.cursor/rules/product.mdc`: keep `alwaysApply: true`. One-flow sentence from answers 1 to 3. Stack from 4. Keep the existing constraint bullets. Under 20 lines total.
-- `.cursor/skills/<product-name>/SKILL.md`: rename the `your-product` folder to a lowercase-hyphen name. `name:` must match the folder. Fill what it does, how to run it, what "working" looks like.
-- `.cursor/hooks/guard.sh`: append the three commands from answer 5 to `BLOCK_CMDS` as case-insensitive regex patterns.
+- `.cursor/skills/<product-name>/SKILL.md`: move `.cursor/skills/your-product/` to a lowercase-hyphen product name (`mv`, not copy, so `your-product/` no longer exists). `name:` must match the folder. Fill what it does, how to run it, what "working" looks like.
+- `.cursor/hooks/guard.sh`: append the three commands from answer 5 to `BLOCK_CMDS` as case-insensitive regex patterns. Prefer plain text or `[.]` over backslash escapes.
 - `.cursor/hooks/test.sh`: add one `check deny` line per new pattern.
 - `PITCH.md`: fill one row of the table from answer 6 and the "how you measured it" line.
 

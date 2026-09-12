@@ -15,5 +15,6 @@ check allow '{"command":"npm test","cwd":"/x"}'                       "harmless 
 check deny  '{"file_path":"/x/.env","content":"KEY=1"}'               "read .env"
 check allow '{"file_path":"/x/.env.example","content":"KEY=1"}'       "read .env.example is fine"
 check allow '{"file_path":"/x/src/app.ts","content":"rm -rf"}'        "content is not inspected, only path"
+check deny  '{"command":"git push -f origin main","cwd":"/x"}'        "pattern with a backslash still yields valid JSON"
 echo; echo "$pass passed, $fail failed"
 [ "$fail" -eq 0 ]

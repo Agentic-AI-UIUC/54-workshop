@@ -105,7 +105,7 @@ mkdir -p /tmp/bare /tmp/scratch-54 && cd /tmp/bare && agent --yolo
 
 <!-- pause -->
 
-> Cursor is not careless. It is **obedient**. Nothing told it no.
+> Cursor is not careless, it is **obedient**, nothing told it no
 
 <!-- speaker_note: LIVE - run the mkdir line on the slide, agent --yolo, ask it to rm -rf /tmp/scratch-54. It deletes it with no question. Without --yolo it asks once and runs on yes, say that too. Let the silence sit two seconds. Then switch to the template folder. -->
 
@@ -156,7 +156,7 @@ TRIP IT, THEN EXTEND IT
 
 <!-- pause -->
 
-> Nine green lines. You just wrote a policy the model cannot override.
+> Ten green lines. You just wrote a policy the model cannot override.
 
 <!-- speaker_note: Walk. Typical adds - git checkout ., npm publish, docker system prune, curl to prod. Hook not firing means Cursor cached hooks.json, restart it. -->
 

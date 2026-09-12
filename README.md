@@ -49,7 +49,7 @@ Check the hook on your machine without Cursor:
 bash .cursor/hooks/test.sh
 ```
 
-Expected: `8 passed, 0 failed`.
+Expected: `9 passed, 0 failed`.
 
 ## Make it yours
 
@@ -130,7 +130,7 @@ Dependencies: bash, grep, python3 (for JSON parsing; ships with Xcode Command Li
 .cursor/
 ├── hooks.json                     hook registration
 ├── hooks/guard.sh                 the gate
-├── hooks/test.sh                  8 assertions, runs without Cursor
+├── hooks/test.sh                  9 assertions, runs without Cursor
 ├── rules/product.mdc              your spec, always in context
 ├── skills/setup/SKILL.md          /setup: interviews you, fills in everything below
 └── skills/your-product/SKILL.md   how to run and demo your product

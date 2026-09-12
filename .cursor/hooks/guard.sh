@@ -22,7 +22,9 @@ field() {
 }
 
 deny() {
-  printf '{"permission":"deny","user_message":"%s","agent_message":"%s"}\n' "$1" "$1"
+  # Escape backslashes and quotes so a regex pattern can't break the JSON.
+  local msg="${1//\\/\\\\}"; msg="${msg//\"/\\\"}"
+  printf '{"permission":"deny","user_message":"%s","agent_message":"%s"}\n' "$msg" "$msg"
   exit 0
 }
 
