@@ -512,7 +512,7 @@ THAT'S IT!!!
 
 <!-- font_size: 2 -->
 
-<span class="muted">Need help? Questions? DM me on Discord, <span class="accent">**anikoni2010**</span>. Happy to help.</span>
+<span class="muted">Need help? Questions? DM me on Discord, <span class="badge"> anikoni2010 </span>. Happy to help!!</span>
 
 <!-- new_lines: 2 -->
 
