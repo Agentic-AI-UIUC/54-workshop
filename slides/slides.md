@@ -61,6 +61,17 @@ cd 54-workshop && agent
 
 <!-- end_slide -->
 
+<!-- jump_to_middle -->
+
+<span class="kicker">/// ROUND 01</span>
+
+DAMAGE
+===
+
+<!-- font_size: 2 -->
+
+<!-- end_slide -->
+
 <span class="kicker">/// WATCH IT FAIL</span>
 
 2 AM, NO GUARDRAILS
@@ -138,6 +149,17 @@ TRIP IT, THEN EXTEND IT
 > Nine green lines. You just wrote a policy the model cannot override.
 
 <!-- speaker_note: Walk. Typical adds - git checkout ., npm publish, docker system prune, curl to prod. Hook not firing means Cursor cached hooks.json, restart it. -->
+
+<!-- end_slide -->
+
+<!-- jump_to_middle -->
+
+<span class="kicker">/// ROUND 02</span>
+
+DRIFT
+===
+
+<!-- font_size: 2 -->
 
 <!-- end_slide -->
 
