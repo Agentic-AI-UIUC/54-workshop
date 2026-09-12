@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Overflow check at export size (110x33) and at a projector with the font turned up (90x26).
+# Overflow check at export size (90x26) and at a projector with the font turned way up (72x20).
 cd "$(dirname "$0")"
 for cfg in config.yaml config-tight.yaml; do
   echo "── validate ($cfg)"
