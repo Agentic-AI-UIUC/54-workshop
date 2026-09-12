@@ -24,7 +24,7 @@ Stop after each question and wait for the answer.
 - `.cursor/skills/<product-name>/SKILL.md`: move `.cursor/skills/your-product/` to a lowercase-hyphen product name (`mv`, not copy, so `your-product/` no longer exists). `name:` must match the folder. Fill what it does, how to run it, what "working" looks like.
 - `.cursor/hooks/guard.sh`: append the three commands from answer 5 to `BLOCK_CMDS` as case-insensitive regex patterns. Prefer plain text or `[.]` over backslash escapes.
 - `.cursor/hooks/test.sh`: add one `check deny` line per new pattern.
-- `TODO.md`, Round 4: fill one row of the pitch table from answer 6 and the "how you measured it" line. Change nothing else in that file.
+- `TODO.md`, Part 4: fill one row of the pitch table from answer 6 and the "how you measured it" line. Change nothing else in that file.
 
 ## 3. Verify
 

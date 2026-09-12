@@ -29,7 +29,7 @@ AGENDA
 
 <!-- new_line -->
 
-> Each round: I show it fail, I show it fixed, **you do it**. By Sunday 3 PM your demo runs on stage
+> Each part: I show it fail, I show it fixed, **you do it**. By Sunday 3 PM your demo runs on stage
 
 <!-- speaker_note: 60 min. Budget is 5 setup / 12 / 15 / 8 / 8 / 7 show and tell / 5 close. Everyone is on a laptop with the agent. Nobody hand-edits a file today. Cut order if long - Spotify slide, then show and tell to one team. -->
 
@@ -69,7 +69,7 @@ cd 54-workshop && agent
 
 <!-- jump_to_middle -->
 
-<span class="kicker">/// ROUND 01</span>
+<span class="kicker">/// PART 01</span>
 
 DAMAGE
 ===
@@ -164,7 +164,7 @@ TRIP IT, THEN EXTEND IT
 
 <!-- jump_to_middle -->
 
-<span class="kicker">/// ROUND 02</span>
+<span class="kicker">/// PART 02</span>
 
 DRIFT
 ===
@@ -279,7 +279,7 @@ WRITE THE SPEC ONCE
 
 <!-- jump_to_middle -->
 
-<span class="kicker">/// ROUND 03</span>
+<span class="kicker">/// PART 03</span>
 
 BREAK IT
 ===
@@ -366,7 +366,7 @@ SPOTIFY DOES THIS
 
 <!-- jump_to_middle -->
 
-<span class="kicker">/// ROUND 04</span>
+<span class="kicker">/// PART 04</span>
 
 PROVE IT
 ===

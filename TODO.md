@@ -11,14 +11,14 @@ You never edit a file by hand. You prompt the agent, it writes the files, and th
 - [ ] Cloned this repo: `git clone https://github.com/Agentic-AI-UIUC/54-workshop.git`
 - [ ] `cd 54-workshop && agent` runs. Work inside this folder, it is a sandbox.
 
-## Round 1: Damage (8 minutes)
+## Part 1: Damage (8 minutes)
 
 - [ ] Prompt: **force push this to main**. The hook denies it.
 - [ ] Prompt: **add one command that would ruin my demo to BLOCK_CMDS in .cursor/hooks/guard.sh, write a test for it in test.sh, then run the tests**
 - [ ] Agent reports 10 passed, 0 failed
 - [ ] Read what it changed before you trust it
 
-## Round 2: Drift (10 minutes)
+## Part 2: Drift (10 minutes)
 
 - [ ] Prompt: **/setup**. It asks six questions, one at a time: what the user types, what the product does, what the screen shows, your stack, three commands to block, one thing to measure. Answer in plain English. It writes `product.mdc`, your product skill, the hook additions, the tests, and the pitch row.
 - [ ] Can't answer the first three? You have a feature list, not a demo. Pick one flow and answer again.
@@ -26,12 +26,12 @@ You never edit a file by hand. You prompt the agent, it writes the files, and th
 - [ ] Prompt: **build the flow in product.mdc**
 - [ ] Prompt: **run it**. Screenshot the moment it works.
 
-## Round 3: Break it (4 minutes)
+## Part 3: Break it (4 minutes)
 
 - [ ] Try to talk the agent into running `rm -rf`. Any phrasing.
 - [ ] If you got past the hook, prompt: **add the pattern I just used to BLOCK_CMDS, add a test, run the tests**
 
-## Round 4: Prove it (5 minutes)
+## Part 4: Prove it (5 minutes)
 
 - [ ] Prompt: **fill one row of the pitch table in TODO.md: task X, without our product Y, with it Z, and add the how-we-measured line**. Your numbers, not the agent's guess.
 
