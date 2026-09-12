@@ -509,12 +509,12 @@ TONIGHT
 
 <span class="kicker">/// 54 WORKSHOP COMPLETE</span>
 
-QUESTIONS?
+THAT'S IT
 ===
 
 <!-- font_size: 2 -->
 
-<span class="muted">Find me in the Sunday 1 to 3 work session if a hook will not fire.</span>
+<span class="muted">DM me on Discord, <span class="accent">**anikoni2010**</span>, if you have any questions. Happy to help!</span>
 
 <!-- new_lines: 2 -->
 
