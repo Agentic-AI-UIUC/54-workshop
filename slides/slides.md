@@ -1,14 +1,31 @@
 ---
-title: "54 AGENTIC AI WORKSHOP - DEMOS THAT SURVIVE THE PITCH"
-sub_title: "Guardrails so Cursor builds the product you want, rather than a generic app"
-event: "FOUNDERS · AGENTIC AI @ UIUC · Y COMBINATOR"
-date: "09/12/2026 · 4:00 PM"
-location: "SCD · Sunset Studio (Room 1050)"
 theme:
   path: theme/agentic-ai.yaml
 options:
   end_slide_shorthand: false
 ---
+
+<!-- jump_to_middle -->
+
+<!-- alignment: center -->
+
+<!-- font_size: 2 -->
+
+**54 AGENTIC AI WORKSHOP · DEMOS THAT SURVIVE THE PITCH**
+
+<span class="muted">Guardrails so Cursor builds the product you want, rather than a generic app</span>
+
+<!-- new_lines: 2 -->
+
+<span class="accent">FOUNDERS · AGENTIC AI @ UIUC · Y COMBINATOR</span>
+
+<span class="muted">SCD · Sunset Studio (Room 1050)</span>
+
+<span class="accent">09/12/2026 · 4:00 PM</span>
+
+<!-- new_lines: 6 -->
+
+<!-- end_slide -->
 
 <span class="kicker">/// RUN OF SHOW</span>
 
@@ -17,11 +34,11 @@ AGENDA
 
 <!-- font_size: 2 -->
 
-<span class="accent">**01**</span>  **Damage** · <span class="muted">Stop Cursor from breaking your repo.</span>
+<span class="accent">**01**</span>  **Damage** · <span class="muted">Stop Cursor from breaking your repo</span>
 
-<span class="accent">**02**</span>  **Drift** · <span class="muted">Keep Cursor on your product, not a generic app.</span>
+<span class="accent">**02**</span>  **Drift** · <span class="muted">Have Cursor be focused on your product, not just any generic app</span>
 
-<span class="accent">**03**</span>  **Break it** · <span class="muted">Try to get past the gate.</span>
+<span class="accent">**03**</span>  **Break it** · <span class="muted">Try to get past the gate</span>
 
 <span class="accent">**04**</span>  **Prove it** · <span class="muted">One number, one video.</span>
 
