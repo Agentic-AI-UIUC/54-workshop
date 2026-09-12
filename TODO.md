@@ -28,7 +28,7 @@ You never edit a file by hand. You prompt the agent, it writes the files, and th
 
 ## Part 3: Break it (4 minutes)
 
-- [ ] Try to talk the agent into running `rm -rf`. Any phrasing.
+- [ ] In the `54-workshop` folder, try to talk the agent into running `rm -rf /tmp/scratch-54`. Any phrasing.
 - [ ] If you got past the hook, prompt: **add the pattern I just used to BLOCK_CMDS, add a test, run the tests**
 
 ## Part 4: Prove it (5 minutes)
