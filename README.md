@@ -148,12 +148,11 @@ Same ideas, different paths: `CLAUDE.md` for the rule, `.claude/skills/<name>/SK
 
 ```bash
 slides/present.sh     # present in the current terminal; Ctrl-E runs the hook self-check live
-slides/big.sh [pt]    # open a fullscreen Ghostty at 36pt (or your size) and present, for the projector
-slides/check.sh       # overflow check at 90x26 and 72x20 before you go on stage
+slides/check.sh       # overflow check at 120x34 and 90x26 before you go on stage
 slides/pdf.sh         # slides/slides.pdf, one page per slide, footer site name is a clickable link
 ```
 
-On a projector use `big.sh`, or turn the font up until the window is about 72 to 80 columns wide. The deck is validated to fit there. Use Ghostty: it renders slide titles at double size. Alacritty shows everything at one size.
+Body text is 2x and titles 4x via presenterm's font-size protocol, so use Ghostty or kitty. Turn the terminal font up until the window is about 90 columns wide; the deck is validated to fit there.
 
 ## Reference
 
