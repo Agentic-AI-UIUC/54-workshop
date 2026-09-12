@@ -55,7 +55,7 @@ cd 54-workshop && agent
 
 <!-- new_line -->
 
-> Windows: WSL or Git Bash. The hook is 40 lines of bash. Hands up when `agent` is running.
+> Hands up once `agent` is running. On Windows, use WSL or Git Bash so the hook script can run.
 
 <!-- speaker_note: Say the sandbox line out loud. We are not editing anyone's project today. Integration is optional and theirs. Wait for most hands. Walk to anyone stuck. Common - Cursor CLI not installed, curl https://cursor.com/install -fsS | bash. Not logged in, agent login. -->
 
