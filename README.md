@@ -150,7 +150,10 @@ Same ideas, different paths: `CLAUDE.md` for the rule, `.claude/skills/<name>/SK
 ```bash
 slides/present.sh     # present; Ctrl-E runs the hook self-check live on the demo slide
 slides/check.sh       # overflow check at 110x33 and 90x26 before you go on stage
+slides/export.sh      # re-export docs/index.html for GitHub Pages, then commit docs/
 ```
+
+Web version: https://agentic-ai-uiuc.github.io/54-workshop/ (arrow keys to page through).
 
 ## Reference
 
