@@ -148,9 +148,9 @@ TRIP IT, THEN EXTEND IT
 
 <!-- font_size: 2 -->
 
-<span class="accent">**01**</span>  Ask your agent to **force push to main** and watch the hook deny it
+<span class="accent">**01**</span>  Prompt **"force push this to main"** and watch the hook deny it
 
-<span class="accent">**02**</span>  Tell the agent to add one command that would ruin your demo to the block list in `guard.sh`, write a test for it, and run the tests
+<span class="accent">**02**</span>  Prompt **"add one command that would ruin my demo to BLOCK_CMDS in guard.sh, write a test for it, then run the tests"**
 
 <span class="accent">**03**</span>  Read what it changed. You never edit these files by hand: the agent writes them and the hook proves it obeyed
 
