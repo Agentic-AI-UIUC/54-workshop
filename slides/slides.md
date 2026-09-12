@@ -70,6 +70,8 @@ DAMAGE
 
 <!-- font_size: 2 -->
 
+<span class="muted">Stop Cursor from breaking your repo.</span>
+
 <!-- end_slide -->
 
 <span class="kicker">/// WATCH IT FAIL</span>
@@ -160,6 +162,8 @@ DRIFT
 ===
 
 <!-- font_size: 2 -->
+
+<span class="muted">Keep Cursor on your product, not a generic app.</span>
 
 <!-- end_slide -->
 
@@ -282,6 +286,8 @@ BREAK IT
 
 <!-- font_size: 2 -->
 
+<span class="muted">Try to trick Cursor past the hook.</span>
+
 <!-- end_slide -->
 
 <span class="kicker">/// CHALLENGE · 4 MIN</span>
@@ -366,6 +372,8 @@ PROVE IT
 ===
 
 <!-- font_size: 2 -->
+
+<span class="muted">A metric for the pitch, a backup video for the demo.</span>
 
 <!-- end_slide -->
 
