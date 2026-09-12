@@ -135,7 +135,7 @@ Dependencies: bash, grep, python3 (for JSON parsing; ships with Xcode Command Li
 ├── skills/setup/SKILL.md          /setup: interviews you, fills in everything below
 └── skills/your-product/SKILL.md   how to run and demo your product
 TODO.md                            step-by-step checklist, workshop through Sunday
-PITCH.md                           the pitch table and how-you-measured line
+PITCH.md                           the pitch table, slide 3 of your pitch
 .env.example                       agent may read this; .env it may not
 ```
 

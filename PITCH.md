@@ -1,20 +1,6 @@
-# Pitch prep (do these tonight and tomorrow)
+# Pitch table
 
-## Tonight
-
-- [ ] One-flow sentence written in `.cursor/rules/product.mdc`
-- [ ] Skill filled in at `.cursor/skills/<your-product>/SKILL.md`
-- [ ] Your three forbidden commands added to `.cursor/hooks/guard.sh`, `bash .cursor/hooks/test.sh` passes
-- [ ] Cursor builds the flow when you ask it to
-- [ ] Measure ONE number and put it in the table below
-
-## Sunday
-
-- [ ] 1:00 pm: record a 90-second screen video of the flow working. Keep it on the laptop.
-- [ ] Slide 3 of the pitch is the table below
-- [ ] If the live demo dies, play the video and keep talking. Do not debug on stage.
-
-## The table (one honest number beats ten adjectives)
+Slide 3 of your pitch. One measured row beats ten adjectives. `/setup` fills the first row from your answers; prompt the agent to add more.
 
 | Task | Without our product | With our product | Delta |
 |------|-------------------|----------------|-------|
