@@ -1,3 +1,9 @@
+defaults:
+  # Center the content block on wide screens instead of pinning it top-left.
+  max_columns: 100
+  max_columns_alignment: center
+  max_rows: 30
+  max_rows_alignment: center
 # Smallest terminal we are willing to present at: a projector with the font
 # turned well up. If a slide fits here, it fits anywhere.
 export:
