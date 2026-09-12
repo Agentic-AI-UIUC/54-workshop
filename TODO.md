@@ -20,8 +20,6 @@ You never hand-edit these files. You prompt the agent and it fills them in. The 
 
 ## Round 2: Drift (10 minutes)
 
-**Founders**
-
 - [ ] Filled the three blanks, twenty words max:
 
   ```text
@@ -30,9 +28,7 @@ You never hand-edit these files. You prompt the agent and it fills them in. The 
   Screen shows  ________
   ```
 
-**Builders**
-
-- [ ] Typed **`/setup`** in the agent. Answered its questions with the founders' sentence. It writes `product.mdc`, renames and fills the skill, extends the hook, runs the tests.
+- [ ] Typed **`/setup`** in the agent. Answered its questions with that sentence. It writes `product.mdc`, renames and fills the skill, extends the hook, runs the tests.
 - [ ] Read what it wrote. `product.mdc` under 20 lines? Skill folder name matches `name:`?
 - [ ] Asked the agent to **build the flow in product.mdc**
 - [ ] Ran it. Screenshot the moment it works.

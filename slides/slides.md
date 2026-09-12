@@ -31,7 +31,7 @@ AGENDA
 
 > Each round: I show it fail, I show it fixed, **you do it**. By Sunday 3 PM your demo runs on stage.
 
-<!-- speaker_note: 60 min. Budget is 5 setup / 12 / 15 / 8 / 8 / 7 show and tell / 5 close. Builders drive the laptop. Founders write the flow sentence in round 2 and the pitch row in round 4. Say that now so nobody checks out. Cut order if long - Spotify slide, then show and tell to one team. -->
+<!-- speaker_note: 60 min. Budget is 5 setup / 12 / 15 / 8 / 8 / 7 show and tell / 5 close. Everyone is on a laptop with the agent. Nobody hand-edits a file today. Cut order if long - Spotify slide, then show and tell to one team. -->
 
 <!-- end_slide -->
 
@@ -229,13 +229,7 @@ WRITE THE SPEC ONCE
 
 <!-- font_size: 2 -->
 
-<!-- column_layout: [1, 1] -->
-
-<!-- column: 0 -->
-
-<span class="badge"> FOUNDERS </span>
-
-**Fill the three blanks.** Twenty words max.
+<span class="accent">**01**</span>  Fill the three blanks. Twenty words max.
 
 ```text
 User types    ________
@@ -243,21 +237,15 @@ Product does  ________
 Screen shows  ________
 ```
 
-<span class="muted">Can't fill them? You have a feature list, not a demo.</span>
+<span class="accent">**02**</span>  Type **`/setup`**. Answer its six questions with that sentence.
 
-<!-- column: 1 -->
+<span class="accent">**03**</span>  It writes `product.mdc`, the skill, the hook. Read the diff.
 
-<span class="badge"> BUILDERS </span>
+<span class="accent">**04**</span>  Ask **"build the flow in product.mdc"**. Run it. Screenshot it working.
 
-**1.** Type **`/setup`**. Answer its six questions.
+<!-- pause -->
 
-**2.** It writes `product.mdc`, the skill, the hook. Read the diff.
-
-**3.** Ask **"build the flow in product.mdc"**.
-
-**4.** Run it. Screenshot the moment it works.
-
-<!-- reset_layout -->
+> Can't fill the blanks? You have a feature list, not a demo.
 
 <!-- speaker_note: Walk. Rule ignored means alwaysApply is missing or the file is .md not .mdc. At minute 8 say two teams will show at the end. -->
 
@@ -366,7 +354,7 @@ ONE HONEST NUMBER
 
 <!-- font_size: 2 -->
 
-<span class="muted">Tell the agent: **"fill one row of PITCH.md"** with your numbers. Founders pick the task, builders measure.</span>
+<span class="muted">Tell the agent: **"fill one row of PITCH.md"** with your numbers. Pick the task, measure it, no guessing.</span>
 
 <!-- new_line -->
 
