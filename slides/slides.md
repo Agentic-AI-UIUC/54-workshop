@@ -12,14 +12,14 @@ options:
 
 <span class="kicker">/// RUN OF SHOW</span>
 
-THE NEXT 45 MINUTES
+THE NEXT 60 MINUTES
 ===
 
 <span class="accent">**01**</span>  **Why demos die** · <span class="muted">Two failure modes</span>
 
 <span class="accent">**02**</span>  **Three files** · <span class="muted">Rule, skill, hook</span>
 
-<span class="accent">**03**</span>  **Hands-on** · <span class="muted">Clone, trip the hook, make it yours</span>
+<span class="accent">**03**</span>  **Hands-on, 25 min** · <span class="muted">Clone, trip the hook, build your flow</span>
 
 <span class="accent">**04**</span>  **Prove it** · <span class="muted">One number, one video</span>
 
@@ -29,7 +29,7 @@ THE NEXT 45 MINUTES
 
 > By Sunday 3 PM your demo **runs on stage** and your pitch has **one honest number**.
 
-<!-- speaker_note: 45 min. Budget is 5 / 15 / 15 / 5 plus Q&A. Builders do part 02 and 03. Founders own the one-flow sentence and part 04. Say that up front so nobody checks out. Cut order if long - Spotify slide, then the second market item. -->
+<!-- speaker_note: 60 min. Budget is 12 talk / 8 demo / 25 hands-on / 5 show and tell / 7 pitch / 3 Q&A. Builders do part 02 and 03. Founders own the one-flow sentence and part 04. Say that up front so nobody checks out. Cut order if long - Spotify slide, then the second market item. -->
 
 <!-- end_slide -->
 
@@ -322,7 +322,7 @@ HANDS-ON
 
 <!-- end_slide -->
 
-<span class="kicker">/// TWELVE MINUTES</span>
+<span class="kicker">/// TWENTY-FIVE MINUTES</span>
 
 MAKE IT YOURS
 ===
@@ -342,7 +342,26 @@ cd 54-workshop && agent
 
 <span class="accent">**04**</span>  Ask **"build the flow in product.mdc"**.
 
-<!-- speaker_note: Leave this slide up and walk. Common failures - python3 missing on Windows, use WSL or Git Bash. Hook not firing, restart Cursor, it caches hooks.json. Rule ignored, check alwaysApply is true. -->
+<span class="accent">**05**</span>  Run it. <span class="muted">Screenshot the moment it works.</span>
+
+<!-- speaker_note: Leave this slide up and walk. At minute 15 call out that two teams will show theirs. At minute 22 give a three-minute warning. Common failures - python3 missing on Windows, use WSL or Git Bash. Hook not firing, restart Cursor, it caches hooks.json. Rule ignored, check alwaysApply is true. -->
+
+<!-- end_slide -->
+
+<span class="kicker">/// SHOW AND TELL</span>
+
+TWO TEAMS, TWO MINUTES EACH
+===
+
+<span class="muted">Plug in. Show the hook denying something, then the flow running.</span>
+
+<!-- new_lines: 2 -->
+
+<span class="accent">**01**</span>  What did Cursor try to do that the hook stopped?
+
+<span class="accent">**02**</span>  What did the rule keep it from adding?
+
+<!-- speaker_note: Pick the two teams whose screens you saw work while walking. Nobody volunteers cold. If a demo stalls, thank them and move on, do not debug on stage, that is the rule from the next section. -->
 
 <!-- end_slide -->
 
