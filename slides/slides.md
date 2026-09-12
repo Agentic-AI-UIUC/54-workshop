@@ -518,4 +518,4 @@ QUESTIONS?
 
 <!-- new_lines: 2 -->
 
-<span class="badge"> AGENTICAIUIUC.COM </span>   <span class="dim">·</span>   <span class="muted">github.com/Agentic-AI-UIUC/54-workshop</span>
+<span class="badge"> AGENTICAIUIUC.COM </span> <span class="dim">·</span> <span class="badge"> GITHUB.COM/AGENTIC-AI-UIUC/54-WORKSHOP </span>
