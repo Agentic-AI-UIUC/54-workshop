@@ -148,15 +148,15 @@ TRIP IT, THEN EXTEND IT
 
 <!-- font_size: 2 -->
 
-<span class="accent">**01**</span>  Ask **"force push to main"**. <span class="muted">Watch it deny</span>
+<span class="accent">**01**</span>  Ask your agent to **force push to main** and watch the hook deny it
 
-<span class="accent">**02**</span>  Tell the agent: **"add `<command>` to BLOCK_CMDS in guard.sh, add a test, run test.sh."**
+<span class="accent">**02**</span>  Tell the agent to add one command that would ruin your demo to the block list in `guard.sh`, write a test for it, and run the tests
 
-<span class="accent">**03**</span>  Read the diff. You never hand-edit. The agent writes, the hook proves it
+<span class="accent">**03**</span>  Read what it changed. You never edit these files by hand: the agent writes them and the hook proves it obeyed
 
 <!-- pause -->
 
-> Ten green lines. You just wrote a policy the model cannot override
+> When the tests come back green, you have written a policy the model cannot talk its way past
 
 <!-- speaker_note: Walk. Typical adds - git checkout ., npm publish, docker system prune, curl to prod. Hook not firing means Cursor cached hooks.json, restart it. -->
 
