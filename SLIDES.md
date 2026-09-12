@@ -237,4 +237,4 @@ Tonight
 
 `github.com/Agentic-AI-UIUC/54-workshop`
 
-<!-- speaker_note: Leave this up for Q&A. Point at PITCH.md in the repo, same checklist. Mentor hours are 3 to 4 tomorrow if a hook will not fire. -->
+<!-- speaker_note: Leave this up for Q&A. Point at PITCH.md in the repo, same checklist. Find me during the Sunday 1 to 3 work session if a hook will not fire. -->
