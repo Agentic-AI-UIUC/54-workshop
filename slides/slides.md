@@ -40,13 +40,12 @@ GET THE FOLDER
 
 ```bash
 git clone https://github.com/Agentic-AI-UIUC/54-workshop.git
-cp -r 54-workshop/.cursor  your-project/     # have a repo? drop it in
-cd your-project && agent                     # no repo? cd 54-workshop
+cd 54-workshop && agent
 ```
 
 <!-- new_line -->
 
-<span class="muted">One folder. Cursor reads `.cursor/` from whatever repo it's opened in. Nothing to register.</span>
+<span class="muted">Work in the clone. It's a sandbox, nothing touches your project. Want it in your repo later? Copy `.cursor/` over, after you've read `guard.sh`. Your call.</span>
 
 <!-- pause -->
 
@@ -54,7 +53,7 @@ cd your-project && agent                     # no repo? cd 54-workshop
 
 > Windows: WSL or Git Bash. The hook is 40 lines of bash. Hands up when `agent` is running.
 
-<!-- speaker_note: Wait for most hands. Walk to anyone stuck. Common - Cursor CLI not installed, curl https://cursor.com/install -fsS | bash. Not logged in, agent login. -->
+<!-- speaker_note: Say the sandbox line out loud. We are not editing anyone's project today. Integration is optional and theirs. Wait for most hands. Walk to anyone stuck. Common - Cursor CLI not installed, curl https://cursor.com/install -fsS | bash. Not logged in, agent login. -->
 
 <!-- end_slide -->
 

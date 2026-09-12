@@ -17,17 +17,15 @@ No plugins, no skills, no API keys. Just:
 - git
 - python3 and bash for the hook script. Present on macOS (Xcode Command Line Tools) and Linux. Windows: use WSL or Git Bash.
 
-## Already have a project?
+## Where to work
 
-Copy the folder in. That is the whole integration.
+Work inside this clone. It is a sandbox: nothing here touches your project.
+
+If you later want the same guardrails in your own repo, that is your call. Copy `.cursor/` over, read `guard.sh` first so you know exactly what it blocks, and keep your own copy. This template is MIT-licensed, provided as-is, and not maintained for your project.
 
 ```bash
-git clone https://github.com/Agentic-AI-UIUC/54-workshop.git
-cp -r 54-workshop/.cursor your-project/
-cd your-project && agent
+cp -r 54-workshop/.cursor your-project/   # optional, after you've read guard.sh
 ```
-
-Existing `.cursor/rules/` merge with the copy. Then follow "Make it yours" below.
 
 ## Quick start
 

@@ -7,7 +7,7 @@ Your checklist for the workshop, tonight, and Sunday. Check boxes as you go.
 - [ ] Cursor installed and logged in
 - [ ] Cursor CLI installed: `curl https://cursor.com/install -fsS | bash` (optional, Agent chat in the IDE works too)
 - [ ] Cloned this repo: `git clone https://github.com/Agentic-AI-UIUC/54-workshop.git`
-- [ ] Copied `.cursor/` into your project, or decided to work inside the clone
+- [ ] Working inside the clone (copying `.cursor/` into your own repo is optional, later, after you've read `guard.sh`)
 - [ ] `agent` runs in the terminal
 
 ## Round 1: Damage (8 minutes)
