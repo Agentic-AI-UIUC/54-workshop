@@ -12,14 +12,14 @@ options:
 
 <span class="kicker">/// RUN OF SHOW</span>
 
-FOUR ROUNDS, LAPTOPS OPEN
+AGENDA
 ===
 
 <!-- font_size: 2 -->
 
-<span class="accent">**01**</span>  **Damage** · <span class="muted">Cursor wrecks something. Then it can't.</span>
+<span class="accent">**01**</span>  **Damage** · <span class="muted">Stop Cursor from breaking your repo.</span>
 
-<span class="accent">**02**</span>  **Drift** · <span class="muted">Cursor builds the wrong thing. Then it can't.</span>
+<span class="accent">**02**</span>  **Drift** · <span class="muted">Keep Cursor on your product, not a generic app.</span>
 
 <span class="accent">**03**</span>  **Break it** · <span class="muted">Try to get past the gate.</span>
 
@@ -58,17 +58,6 @@ cd 54-workshop && agent
 > Windows: WSL or Git Bash. The hook is 40 lines of bash. Hands up when `agent` is running.
 
 <!-- speaker_note: Say the sandbox line out loud. We are not editing anyone's project today. Integration is optional and theirs. Wait for most hands. Walk to anyone stuck. Common - Cursor CLI not installed, curl https://cursor.com/install -fsS | bash. Not logged in, agent login. -->
-
-<!-- end_slide -->
-
-<!-- jump_to_middle -->
-
-<span class="kicker">/// ROUND 01</span>
-
-DAMAGE
-===
-
-<!-- font_size: 2 -->
 
 <!-- end_slide -->
 
@@ -149,17 +138,6 @@ TRIP IT, THEN EXTEND IT
 > Nine green lines. You just wrote a policy the model cannot override.
 
 <!-- speaker_note: Walk. Typical adds - git checkout ., npm publish, docker system prune, curl to prod. Hook not firing means Cursor cached hooks.json, restart it. -->
-
-<!-- end_slide -->
-
-<!-- jump_to_middle -->
-
-<span class="kicker">/// ROUND 02</span>
-
-DRIFT
-===
-
-<!-- font_size: 2 -->
 
 <!-- end_slide -->
 
