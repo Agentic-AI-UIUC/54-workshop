@@ -462,7 +462,7 @@ TONIGHT
 
 <!-- new_line -->
 
-> `github.com/Agentic-AI-UIUC/54-workshop` · same checklist in `PITCH.md`
+> `github.com/Agentic-AI-UIUC/54-workshop` · full checklist in `TODO.md`
 
 <!-- end_slide -->
 

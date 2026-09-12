@@ -87,9 +87,9 @@ Defaults blocked: `git push --force`, `git push -f`, `rm -rf`, `git reset --hard
 
 Ask the agent: `build the flow in product.mdc`. It scaffolds the one thing your demo shows and nothing else.
 
-### 5. Pitch: `PITCH.md`
+### 5. Checklist: `TODO.md`
 
-Checklist for tonight and Sunday. Includes the four-row table for slide 3 and the backup-video rule.
+Every step for the workshop, tonight, and Sunday, with checkboxes and a stuck table. `PITCH.md` holds the benchmark table for slide 3 of your pitch.
 
 ## How the pieces fit
 
@@ -135,7 +135,8 @@ Dependencies: bash, grep, python3 (for JSON parsing; ships with Xcode Command Li
 ├── hooks/test.sh                  8 assertions, runs without Cursor
 ├── rules/product.mdc              your spec, always in context
 └── skills/your-product/SKILL.md   how to run and demo your product
-PITCH.md                           tonight + Sunday checklist, pitch table
+TODO.md                            step-by-step checklist, workshop through Sunday
+PITCH.md                           the pitch table and how-you-measured line
 .env.example                       agent may read this; .env it may not
 ```
 
