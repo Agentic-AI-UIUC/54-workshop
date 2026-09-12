@@ -140,7 +140,7 @@ pty_output:
 footer:
   style: template
   height: 2
-  left: "<span style=\"color: palette:bg\">·······</span><span style=\"color: palette:orange\">AGENTIC AI @ UIUC · AGENTICAIUIUC.COM</span>"
+  left: "<span style=\"color: palette:bg\">·······</span><span class=\"badge\"> AGENTIC AI @ UIUC · AGENTICAIUIUC.COM </span>"
   right: "<span style=\"color: palette:orange\">{current_slide}</span><span style=\"color: palette:dim\"> / {total_slides}</span><span style=\"color: palette:bg\">·······</span>"
 
 modals:
