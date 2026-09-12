@@ -17,13 +17,13 @@ AGENDA
 
 <!-- font_size: 2 -->
 
-<span class="accent">**01**</span>  **Damage** · <span class="muted">Stop Cursor from breaking your repo.</span>
+<span class="accent">**01**</span>  **Damage** · <span class="muted">Stop Cursor from breaking your repo</span>
 
-<span class="accent">**02**</span>  **Drift** · <span class="muted">Keep Cursor on your product, not a generic app.</span>
+<span class="accent">**02**</span>  **Drift** · <span class="muted">Keep Cursor on your product, not a generic app</span>
 
-<span class="accent">**03**</span>  **Break it** · <span class="muted">Try to get past the gate.</span>
+<span class="accent">**03**</span>  **Break it** · <span class="muted">Try to get past the gate</span>
 
-<span class="accent">**04**</span>  **Prove it** · <span class="muted">One number, one video.</span>
+<span class="accent">**04**</span>  **Prove it** · <span class="muted">One number, one video</span>
 
 <!-- pause -->
 
@@ -55,9 +55,9 @@ cd 54-workshop && agent
 
 <!-- new_line -->
 
-> Hands up once `agent` is running. On Windows, use WSL or Git Bash so the hook script can run.
+> On Windows, use WSL or Git Bash so the hook script can run.
 
-<!-- speaker_note: Say the sandbox line out loud. We are not editing anyone's project today. Integration is optional and theirs. Wait for most hands. Walk to anyone stuck. Common - Cursor CLI not installed, curl https://cursor.com/install -fsS | bash. Not logged in, agent login. -->
+<!-- speaker_note: Say the sandbox line out loud. We are not editing anyone's project today. Integration is optional and theirs. Give it two minutes, then walk to anyone stuck. Common - Cursor CLI not installed, curl https://cursor.com/install -fsS | bash. Not logged in, agent login. -->
 
 <!-- end_slide -->
 
