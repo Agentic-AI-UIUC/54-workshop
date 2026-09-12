@@ -1,7 +1,7 @@
 ---
-title: "54 WORKSHOP · DEMOS THAT SURVIVE THE PITCH"
+title: "DEMOS THAT SURVIVE THE PITCH"
 sub_title: "Three files that keep Cursor on your product and off the commands that wreck a demo."
-event: "FOUNDERS 54 · FALL 2026 · AGENTIC AI @ UIUC"
+event: "54 WORKSHOP · FOUNDERS 54 · AGENTIC AI @ UIUC"
 location: "Sunset Studio"
 date: "4 PM"
 theme:

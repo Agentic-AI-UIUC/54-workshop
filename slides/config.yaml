@@ -3,11 +3,6 @@
 # Used by scripts/present.sh (live) and scripts/build-site.sh (CI export).
 
 defaults:
-  # Center the content block on wide screens instead of pinning it top-left.
-  max_columns: 100
-  max_columns_alignment: center
-  max_rows: 30
-  max_rows_alignment: center
   theme: dark
   image_protocol: auto
 
