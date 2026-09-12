@@ -1,6 +1,6 @@
 ---
 title: "DEMOS THAT SURVIVE THE PITCH"
-sub_title: "Three files that keep Cursor on your product and off the commands that wreck a demo."
+sub_title: "Guardrails so Cursor builds your product, not a generic app."
 event: "54 WORKSHOP · FOUNDERS 54 · AGENTIC AI @ UIUC"
 location: "Sunset Studio"
 date: "4 PM"
@@ -383,11 +383,11 @@ ONE HONEST NUMBER
 THE VIDEO RULE
 ===
 
-<span class="accent">**01**</span>  **Sunday 1 PM.** <span class="muted">Record 90 seconds of the flow working. Keep it on the laptop.</span>
+<span class="accent">**01**</span>  **Sunday 1 PM.** <span class="muted">Record 90 seconds of the flow working.</span>
 
 <span class="accent">**02**</span>  **Demo dies on stage.** <span class="muted">Play the video. Keep talking.</span>
 
-<span class="accent">**03**</span>  **Never debug in front of judges.** <span class="muted">Nobody has ever won by fixing a bug live.</span>
+<span class="accent">**03**</span>  **Never debug on stage.** <span class="muted">Nobody has won by fixing a bug live.</span>
 
 <!-- speaker_note: This is the slide people thank you for on Sunday. Say it slowly. -->
 

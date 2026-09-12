@@ -5,7 +5,7 @@
 
 default:
   margin:
-    percent: 12
+    fixed: 8
   colors:
     foreground: palette:text
     background: palette:bg
@@ -16,7 +16,7 @@ intro_slide:
     colors:
       foreground: palette:text
     font_size: 2
-  sub_title:
+  subtitle:
     alignment: center
     colors:
       foreground: palette:muted
@@ -140,8 +140,8 @@ pty_output:
 footer:
   style: template
   height: 2
-  center: "<span style=\"color: palette:dim\">AGENTIC AI @ UIUC · AGENTICAIUIUC.COM</span>"
-  right: "<span style=\"color: palette:orange\">{current_slide}</span><span style=\"color: palette:dim\"> / {total_slides}</span>"
+  left: "<span style=\"color: palette:bg\">·······</span><span style=\"color: palette:dim\">AGENTIC AI @ UIUC · AGENTICAIUIUC.COM</span>"
+  right: "<span style=\"color: palette:orange\">{current_slide}</span><span style=\"color: palette:dim\"> / {total_slides}</span><span style=\"color: palette:bg\">·······</span>"
 
 modals:
   selection_colors:
