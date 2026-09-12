@@ -1,8 +1,8 @@
 # TODO
 
-Your checklist for the workshop, tonight, and Sunday. Check boxes as you go.
+Your checklist for this workshop! Check boxes as you go
 
-You never edit a file by hand. You prompt the agent, it writes the files, and the hook tests prove it obeyed. Every step below is a prompt.
+You never edit a file by hand. You prompt the agent, it writes the files, and the hook tests prove it obeyed. Every step below is a prompt
 
 ## Setup (5 minutes)
 
@@ -33,19 +33,28 @@ You never edit a file by hand. You prompt the agent, it writes the files, and th
 
 ## Round 4: Prove it (5 minutes)
 
-- [ ] Prompt: **fill one row of PITCH.md: task X, without our product Y, with it Z, and add the how-we-measured line**. Your numbers, not the agent's guess.
+- [ ] Prompt: **fill one row of the pitch table in TODO.md: task X, without our product Y, with it Z, and add the how-we-measured line**. Your numbers, not the agent's guess.
+
+  Slide 3 of your pitch. One measured row beats ten adjectives.
+
+  | Task | Without our product | With our product | Delta |
+  |------|-------------------|----------------|-------|
+  | e.g. Book a truck load | 14 min, 3 tools | 40 s, 1 prompt | 95% faster |
+  | | | | |
+
+  How you measured it: ___ (one line, judges will ask)
 
 ## Tonight
 
 - [ ] Prompt: **add two more commands that would ruin my demo to guard.sh, with tests, and run them**
 - [ ] Prompt: **finish the flow in product.mdc**. Run it yourself.
-- [ ] Measure the number you put in `PITCH.md`: seconds, clicks, or tokens
+- [ ] Measure the number in the pitch table: seconds, clicks, or tokens
 - [ ] Prompt: **is product.mdc still under 20 lines? If not, trim it**
 
 ## Sunday
 
 - [ ] **1:00 PM** Record a 90-second screen video of the flow working. Keep it on the laptop.
-- [ ] The table from `PITCH.md` is slide 3 of your pitch
+- [ ] The pitch table above is slide 3 of your pitch
 - [ ] **3:00 PM** Pitch. If the live demo dies, play the video and keep talking. Do not debug on stage.
 
 ## Stuck?

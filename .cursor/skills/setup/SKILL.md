@@ -1,6 +1,6 @@
 ---
 name: setup
-description: Interview the team and fill in the rule, skill, guard hook, and pitch row for their product. Use when the user says /setup, "set this up for my product", or asks to fill in product.mdc, SKILL.md, guard.sh, or PITCH.md.
+description: Interview the team and fill in the rule, skill, guard hook, and pitch row for their product. Use when the user says /setup, "set this up for my product", or asks to fill in product.mdc, SKILL.md, guard.sh, or the pitch table in TODO.md.
 ---
 
 # setup
@@ -24,7 +24,7 @@ Stop after each question and wait for the answer.
 - `.cursor/skills/<product-name>/SKILL.md`: move `.cursor/skills/your-product/` to a lowercase-hyphen product name (`mv`, not copy, so `your-product/` no longer exists). `name:` must match the folder. Fill what it does, how to run it, what "working" looks like.
 - `.cursor/hooks/guard.sh`: append the three commands from answer 5 to `BLOCK_CMDS` as case-insensitive regex patterns. Prefer plain text or `[.]` over backslash escapes.
 - `.cursor/hooks/test.sh`: add one `check deny` line per new pattern.
-- `PITCH.md`: fill one row of the table from answer 6 and the "how you measured it" line.
+- `TODO.md`, Round 4: fill one row of the pitch table from answer 6 and the "how you measured it" line. Change nothing else in that file.
 
 ## 3. Verify
 
@@ -32,6 +32,6 @@ Run `bash .cursor/hooks/test.sh`. Report the pass count. If anything fails, fix 
 
 ## Do not
 
-- Touch files outside `.cursor/` and `PITCH.md`.
+- Touch files outside `.cursor/` and the pitch table in `TODO.md`.
 - Add features, dependencies, auth, or a database. The rule forbids it and so does this skill.
 - Remove any existing `BLOCK_CMDS` entry.

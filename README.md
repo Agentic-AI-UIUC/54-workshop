@@ -87,7 +87,7 @@ Ask the agent: `build the flow in product.mdc`. It scaffolds the one thing your 
 
 ### 5. Checklist: `TODO.md`
 
-Every step for the workshop, tonight, and Sunday, with checkboxes and a stuck table. `PITCH.md` holds the benchmark table for slide 3 of your pitch.
+Every step for the workshop, tonight, and Sunday, with checkboxes, the pitch table for slide 3, and a stuck table.
 
 ## How the pieces fit
 
@@ -134,8 +134,7 @@ Dependencies: bash, grep, python3 (for JSON parsing; ships with Xcode Command Li
 ├── rules/product.mdc              your spec, always in context
 ├── skills/setup/SKILL.md          /setup: interviews you, fills in everything below
 └── skills/your-product/SKILL.md   how to run and demo your product
-TODO.md                            step-by-step checklist, workshop through Sunday
-PITCH.md                           the pitch table, slide 3 of your pitch
+TODO.md                            step-by-step checklist and pitch table, workshop through Sunday
 .env.example                       agent may read this; .env it may not
 ```
 

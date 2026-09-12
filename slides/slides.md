@@ -384,7 +384,7 @@ ONE HONEST NUMBER
 
 <!-- font_size: 2 -->
 
-<span class="muted">Tell the agent: **"fill one row of PITCH.md"** with your numbers. Pick the task, measure it, no guessing</span>
+<span class="muted">Tell the agent: **"fill one row of the pitch table in TODO.md"** with your numbers. Pick the task, measure it, no guessing</span>
 
 <!-- new_line -->
 
