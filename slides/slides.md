@@ -101,7 +101,7 @@ mkdir -p /tmp/bare /tmp/scratch-54 && cd /tmp/bare && agent --yolo
 
 <!-- new_line -->
 
-<span class="bad">**✘**</span>  It ran. `--yolo` is you at 2 AM with yes-to-all on. Now imagine it was `src/`.
+<span class="bad">**✘**</span>  It ran. No approval prompt. That's you at 2 AM after hitting "always allow."
 
 <!-- pause -->
 
