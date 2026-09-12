@@ -516,4 +516,4 @@ THAT'S IT!!!
 
 <!-- new_lines: 2 -->
 
-<span class="accent">**REPO**</span> <span class="dim">·</span> <span class="badge"> GITHUB.COM/AGENTIC-AI-UIUC/54-WORKSHOP </span>
+<span class="muted">**GITHUB REPOSITORY**</span> <span class="dim">·</span> <span class="accent">github.com/Agentic-AI-UIUC/54-workshop</span>
