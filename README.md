@@ -148,7 +148,7 @@ Same ideas, different paths: `CLAUDE.md` for the rule, `.claude/skills/<name>/SK
 
 ```bash
 slides/present.sh     # present in the current terminal; Ctrl-E runs the hook self-check live
-slides/big.sh [pt]    # open a fullscreen Ghostty at 28pt (or your size) and present, for the projector
+slides/big.sh [pt]    # open a fullscreen Ghostty at 36pt (or your size) and present, for the projector
 slides/check.sh       # overflow check at 90x26 and 72x20 before you go on stage
 slides/pdf.sh         # slides/slides.pdf, one page per slide, footer site name is a clickable link
 ```
