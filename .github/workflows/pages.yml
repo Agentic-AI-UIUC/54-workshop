@@ -1,0 +1,68 @@
+name: Deploy slides
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  PRESENTERM_VERSION: 0.16.1
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: cache-presenterm
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo/bin/presenterm
+          key: presenterm-${{ runner.os }}-${{ env.PRESENTERM_VERSION }}
+
+      - if: steps.cache-presenterm.outputs.cache-hit != 'true'
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install presenterm
+        if: steps.cache-presenterm.outputs.cache-hit != 'true'
+        run: cargo install presenterm --locked --version "$PRESENTERM_VERSION"
+
+      - name: Add presenterm to PATH
+        run: echo "$HOME/.cargo/bin" >> "$GITHUB_PATH"
+
+      - name: Hook self-check
+        run: bash .cursor/hooks/test.sh
+
+      - name: Check deck for overflow
+        run: bash slides/check.sh
+
+      - name: Export deck
+        run: |
+          mkdir -p site
+          cd slides
+          presenterm -c config.yaml -x --image-protocol ascii-blocks \
+            --export-html -o ../site/index.html slides.md </dev/null
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
