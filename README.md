@@ -133,10 +133,11 @@ Same ideas, different paths: `CLAUDE.md` for the rule, `.claude/skills/<name>/SK
 
 ## Workshop slides
 
-The deck lives in the club's presentations repo as `54-workshop/`, built with presenterm on the shared theme. From that repo:
+`slides/` is a [presenterm](https://github.com/mfontanini/presenterm) deck on the Agentic AI @ UIUC theme.
 
 ```bash
-scripts/present.sh 54-workshop
+slides/present.sh     # present; Ctrl-E runs the hook self-check live on the demo slide
+slides/check.sh       # overflow check at 110x33 and 90x26 before you go on stage
 ```
 
 ## Reference
