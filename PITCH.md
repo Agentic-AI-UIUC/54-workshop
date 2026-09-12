@@ -5,7 +5,7 @@
 - [ ] One-flow sentence written in `.cursor/rules/product.mdc`
 - [ ] Skill filled in at `.cursor/skills/<your-product>/SKILL.md`
 - [ ] Your three forbidden commands added to `.cursor/hooks/guard.sh`, `bash .cursor/hooks/test.sh` passes
-- [ ] Agent builds the flow when you ask it to
+- [ ] Cursor builds the flow when you ask it to
 - [ ] Measure ONE number and put it in the table below
 
 ## Sunday
@@ -16,7 +16,7 @@
 
 ## The table (one honest number beats ten adjectives)
 
-| Task | Without our agent | With our agent | Delta |
+| Task | Without our product | With our product | Delta |
 |------|-------------------|----------------|-------|
 | e.g. Book a truck load | 14 min, 3 tools | 40 s, 1 prompt | 95% faster |
 | | | | |

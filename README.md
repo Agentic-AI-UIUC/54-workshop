@@ -1,12 +1,12 @@
-# Agents That Survive the Demo
+# Demos That Survive the Pitch
 
-Cursor template for hackathon teams. Everything in here is a file the Cursor agent reads: a rule, a skill, and a hook. No install, no API keys, no framework.
+Cursor template for hackathon teams building a product this weekend. Any stack, any idea. Everything in here is a file the Cursor agent reads: a rule, a skill, and a hook. No install, no API keys, no framework.
 
 Built for the Agentic AI workshop at Founders 54 Fall 2026 (UIUC). Works for any hackathon.
 
 ## Why this exists
 
-Agent demos die in two ways. The agent wanders off the one flow you meant to show, or it does something dumb live: force-pushes, deletes a folder, reads your `.env` into context. Both are fixable in under an hour with three small files. This repo is those three files plus a checklist.
+Hackathon demos die in two ways. Cursor builds a generic app instead of your product, or it does something dumb the night before: force-pushes, deletes a folder, reads your `.env` into context. Both are fixable in under an hour with three small files. This repo is those three files plus a pitch checklist.
 
 ## Prerequisites
 
