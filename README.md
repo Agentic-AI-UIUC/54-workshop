@@ -151,6 +151,7 @@ Same ideas, different paths: `CLAUDE.md` for the rule, `.claude/skills/<name>/SK
 ```bash
 slides/present.sh     # present; Ctrl-E runs the hook self-check live on the demo slide
 slides/check.sh       # overflow check at 90x26 and 72x20 before you go on stage
+slides/pdf.sh         # slides/slides.pdf, one page per slide, footer site name is a clickable link
 ```
 
 Turn the terminal font up until it is about 72 to 80 columns wide. The deck is validated to fit there.
