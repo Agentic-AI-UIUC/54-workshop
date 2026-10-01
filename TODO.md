@@ -35,8 +35,6 @@ You never edit a file by hand. You prompt the agent, it writes the files, and th
 
 - [ ] Prompt: **fill one row of the pitch table in TODO.md: task X, without our product Y, with it Z, and add the how-we-measured line**. Your numbers, not the agent's guess.
 
-  Slide 3 of your pitch. One measured row beats ten adjectives.
-
   | Task | Without our product | With our product | Delta |
   |------|-------------------|----------------|-------|
   | e.g. Book a truck load | 14 min, 3 tools | 40 s, 1 prompt | 95% faster |
